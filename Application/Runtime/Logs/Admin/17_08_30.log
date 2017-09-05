@@ -1,0 +1,233 @@
+[ 2017-08-30T13:03:22+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/364
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T13:12:17+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:12:17+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:12:17+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:12:51+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:12:51+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:12:51+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:13:41+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:13:41+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:13:41+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:14:18+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:14:18+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T13:14:18+08:00 ] 127.0.0.1 /news/index.php/Admin/Admin/__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:__PUBLIC_ADMIN__
+
+[ 2017-08-30T14:04:32+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-09-08
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504800000 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:04:42+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504108800 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:04:44+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504022400 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:04:52+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504108800 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:04:53+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504108800 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:04:57+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504108800 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:04:58+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-31
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504108800 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:05:01+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-09-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504195200 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:05:02+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-09-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504195200 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:05:06+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-09-06
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504627200 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:05:08+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-09-11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1505059200 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:05:12+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1504022400 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:05:24+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1501516800 ) LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-08-30T14:05:25+08:00 ] 127.0.0.1 /news/index.php/Admin/Duty/duty_find?duty_time=2017-08-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `duty` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `duty` WHERE ( duty_time=1501516800 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:19:31+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/372
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:19:35+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/submit_success/id/372
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=372 ) [ RunTime:0.0313s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=372 ) [ RunTime:0.0156s ]
+
+[ 2017-08-30T14:20:00+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/367
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:20:09+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/147
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:20:36+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/364
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:22:44+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/367
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:22:56+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/369
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:25:45+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/369
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:25:49+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/147
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:26:03+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/369
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:28:36+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/373
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:35:56+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/376
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:35:58+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/submit_fail/id/376
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=376 ) [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=376 ) [ RunTime:0.0313s ]
+
+[ 2017-08-30T14:40:31+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/377
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:40:33+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/submit_fail/id/377
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=377 ) [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=377 ) [ RunTime:0.0313s ]
+
+[ 2017-08-30T14:43:51+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/379
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:43:53+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/submit_fail/id/379
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=379 ) [ RunTime:0.0313s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=379 ) [ RunTime:0.0313s ]
+
+[ 2017-08-30T14:44:13+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/378
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:44:15+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/submit_success/id/378
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=378 ) [ RunTime:0.0938s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=378 ) [ RunTime:0.0000s ]
+
+[ 2017-08-30T14:51:54+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/set_hits/id/381
+ERR: 非法操作:set_hits
+
+[ 2017-08-30T14:51:56+08:00 ] 127.0.0.1 /news/index.php/Admin/Local/submit_success/id/381
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=381 ) [ RunTime:0.0156s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=381 ) [ RunTime:0.0313s ]
+
+[ 2017-08-30T15:48:55+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        a{text-decoration:none;}
+        .bgxt{ width: 700px;height: 600px;margin:  0 auto;background: url("./spbf/bg.jpg") no-repeat;}
+        .bgxt .bgxt_nav{width: 100%;height: 50px;margin-top: 20px;border-bottom:2px solid gray;font-size: 25px;color: dodgerblue;font-weight: bolder;}
+        .bgxt .bgxt_content{width: 100%; height: 400px;margin-top: 50px}
+        .bgxt_content1{width: 100%;height: 40px;margin-top: 20px; }
+        .bgxt_content  a{margin-left: 10px;}
+        .bgxt_div{float: left; width: 35%;height: 35px;border: 0px solid #000000;margin-left: 10px;position: relative}
+        .bgxt_content img{width: 100%;height: 35px;border: 0px}
+      .bgxt_div   .bgxt_zt{position: absolute;height: 35px;top:0px;left: 60px;font-size: 15px;color: #ffffff;line-height: 35px}
+    </style>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+</head>
+<body >
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+   <div class="bgxt">
+       <!--<img src="spbf/bg.jpg">-->
+       <div class="bgxt_nav"><img src="__HOME_URL__/search/bgxt.jpg"></div>
+       <div class="bgxt_content">
+           <div  class="bgxt_content1">
+              <div   class="bgxt_div"> <a  href="http://10.62.227.110" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">消防综合业务平台</div></a></div>
+               <div   class="bgxt_div"> <a  href="http://10.62.227.101:4500" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">消防灭火救援战评系统</div></a></div>
+           </div>
+           <div  class="bgxt_content1">
+               <div   class="bgxt_div"> <a  href="http://10.56.25.125/onExam/Web/Index.aspx" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">消防在线考试系统</div></a></div>
+               <div   class="bgxt_div"> <a  href="wslb.asp" target="_blank" ><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">网上练兵系统</div></a></div>
+           </div>
+           <div  class="bgxt_content1">
+               <div   class="bgxt_div"> <a  href="jiankong1.htm" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">远程监控视频系统</div></a></div>
+               <div   class="bgxt_div"> <a  href="http://10.56.25.125/FireStat" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">火灾统计管理系统</div></a></div>
+           </div>
+           <div  class="bgxt_content1">
+               <div   class="bgxt_div"> <a  href="http://10.62.227.104/xfjd" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">派出所消防监督系统</div></a></div>
+               <div   class="bgxt_div"> <a  href="http://10.2.60.88/zl/" target="_blank"><img src="__HOME_URL__/search/jhsnajkh.jpg"><div class="bgxt_zt">火灾隐患网上追踪</div></a></div>
+           </div>
+
+       </div>
+   </div>
+<!--footer引入-->
+<include file="Layout/footer" />
+</body>
+</html>

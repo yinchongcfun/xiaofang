@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>已发稿件列表</title>
+    <style>
+        body{background-color: rgb(204,232,207);}
+        .yfgj{border:0px solid red;width: 1100px;margin:  0 auto;    height: 40px;   background-color: gainsboro;font-size: 20px;font-weight: bold;line-height: 40px}
+        .lbxq{ width: 1100px; height: 750px ;border: 1px solid  gray;margin: 0 auto }
+        .lbtb{width: 100%; height: 600px;border: 1px solid  gainsboro}
+        .lbtb  table{width: 100%; height: auto;  background-color: gainsboro;}
+        .lbtb table  ,tr ,td  ,th{border-collapse: collapse; border: 2px solid #ffffff;text-align: center}
+        .lbtb .lbtb_tr_nav{background-color: darkgrey;height:45px }
+        .lbtb  .lbtb_td{width:auto;height: 25px}
+        .lbrbcenter{width: 100%;height: 30px;border: 1px solid  gainsboro;margin-top: 10px}
+        .lbrbcenter_l{width: 45%;height:30px;border: 0px solid  burlywood;float: left;text-align: center;font-size: 15px;line-height: 30px}
+        .lbrbcenter_r{width: 38%;height: 30px;border: 0px solid  green;float: right}
+        .lbrbcenter_r  a{color: darkgray;font-size: 15px;line-height: 30px;margin-left: 10px;text-decoration: none}
+        .lbrbcenter_r span{font-size: 15px;margin-left: 10px}
+        .lbrbcenter_r input{width: 16px;height: 12px;border: 1px solid  gray}
+        .lbrbcenter_r a img{width: 25px;border: 0px}
+        .lbbottom{border: 0px solid  red;height: 28px;margin-top: 10px;position: relative}
+        .lbbottom .rqcj{height: 25px;border:0px solid  red;width: 40%;position: absolute;top: 1px;right: 10px}
+        .lbbottom input,.lbbottom select{border: 1px solid  darkgray;}
+
+    </style>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <link href="css/lyz.calendar.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="__ROOT__/Application/Home/View/Layout/page.css"/>
+
+    <script src="http://www.jq22.com/jquery/1.4.4/jquery.min.js"></script>
+
+
+    <script src="js/lyz.calendar.min.js" type="text/javascript"></script>
+
+
+
+    <script>
+
+        $(function () {
+
+            $("#txtBeginDate").calendar({
+
+                controlId: "divDate",                                 // 弹出的日期控件ID，默认: $(this).attr("id") + "Calendar"
+
+                speed: 200,                                           // 三种预定速度之一的字符串("slow", "normal", or "fast")或表示动画时长的毫秒数值(如：1000),默认：200
+
+                complement: true,                                     // 是否显示日期或年空白处的前后月的补充,默认：true
+
+                readonly: true,                                       // 目标对象是否设为只读，默认：true
+
+                upperLimit: new Date(),                               // 日期上限，默认：NaN(不限制)
+
+                lowerLimit: new Date("2011/01/01"),                   // 日期下限，默认：NaN(不限制)
+
+                callback: function () {                               // 点击选择日期后的回调函数
+
+                    alert("您选择的日期是：" + $("#txtBeginDate").val());
+
+                }
+
+            });
+
+            $("#txtEndDate").calendar();
+
+        });
+
+    </script>
+</head>
+<body>
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+
+<div class="lbxq">
+    <div  class="yfgj"> 已发稿件列表</div>
+    <div class="lbtb">
+        <table  >
+            <tr class="lbtb_tr_nav">
+                <th class="lbtb_td">标题</th>
+                <th class="lbtb_td">投稿单位</th>
+                <th class="lbtb_td">录用站点</th>
+                <th class="lbtb_td">发布时间</th>
+                <th class="lbtb_td">稿件状态</th>
+                <!--<th class="lbtb_td5">录用栏目</th>-->
+            </tr>
+            <volist name="info" id="vo">
+                <tr class="lbtb_tr" style="height: 25px">
+                    <td class="lbtb_td">{$vo.title|mb_substr=0,18,'utf-8'}...</td>
+                    <td class="lbtb_td">{$Think.session.local_name}</td>
+                    <td class="lbtb_td">{$vo.role_name}</td>
+                    <td class="lbtb_td">{:date('Y-m-d',$vo['add_time'])}</td>
+                    <td class="lbtb_td">
+                        <switch name="vo['status']" >
+                            <case value="1">审核通过</case>
+                            <case value="2">审核不通过</case>
+                            <case value="3">已审核,已回复</case>
+                            <default />审核中
+                        </switch>
+                    </td>
+                    <!--<td class="lbtb_td5">政治工作</td>-->
+                </tr>
+            </volist>
+        </table>
+        <span  class="pages" style="margin-right: 20px;float: right"> {$pagelist} </span>
+    </div>
+    <div class="lbrbcenter">
+        <div class="lbrbcenter_l">
+            <!--共81条记录  第1页/共9页  10项/页-->
+        </div>
+        <div class="lbrbcenter_r">
+
+        </div>
+    </div>
+    <!--<div class="lbbottom">-->
+        <!--<form action="" method="post" >-->
+            <!--<select style="width: 60px;margin: 0  10px;background-color: rgb(204,232,207);"  >-->
+                <!--<option value="总站">总站</option>-->
+                <!--<option value="旅游">旅游</option>-->
+                <!--<option value="运动">运动</option>-->
+                <!--<option value="购物">购物</option>-->
+            <!--</select>-->
+            <!--<select   style="width: 200px;margin: 0  10px;background-color: rgb(204,232,207);" >-->
+                <!--<option  selected>&#45;&#45;&#45;&#45;请选择稿件类别&#45;&#45;&#45;&#45;</option>-->
+                <!--<option  selected>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>-->
+                <!--<option value="旅游">旅游</option>-->
+                <!--<option value="运动">运动</option>-->
+                <!--<option value="购物">购物</option>-->
+            <!--</select>-->
+
+            <!--内容：<input   style="background-color: rgb(204,232,207);margin-left: 20px" type="text">-->
+
+            <!--<div  class="rqcj">-->
+
+                <!--<input id="txtBeginDate" value="2017-04-25" style="background-color: rgb(204,232,207)" />-->
+
+                <!--&#45;&#45;  <input id="txtEndDate" value="2017-08-03"style="background-color: rgb(204,232,207)" />-->
+                <!--<input  type="button"  value="查询">-->
+            <!--</div>-->
+
+        <!--</form>-->
+    <!--</div>-->
+</div>
+<!--footer引入-->
+<include file="Layout/footer" />
+</body>
+</html>

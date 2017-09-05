@@ -1,0 +1,217 @@
+<HTML>
+	<HEAD>
+		<title>视频点播</title>
+		 
+
+		 
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		 
+		<LINK href="/css/Default.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body bottomMargin="0" bgColor="#ffffff" leftMargin="0" topMargin="0" rightMargin="0"  >
+		<form name="Form1" method="post" action="movie.aspx" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2ODQxMTU5MTkPZBYCAgIPZBYCAgUPZBYCZg9kFgYCAQ88KwALAQAPFgIeB1Zpc2libGVoZGQCAg8PFgIfAGdkZAIED2QWAmYPZBYCZg9kFgJmD2QWBGYPZBYEZg8PFgIeBFRleHQFHeWFsTDmnaHorrDlvZUg56ysMOmhtS/lhbEw6aG1ZGQCAg8PFgIfAQUJMTDpobkv6aG1ZGQCAQ9kFggCAQ8PFgIeB0VuYWJsZWRoZGQCAw8PFgIfAmhkZAIFDw8WAh8CaGRkAgcPDxYCHwJoZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFD2N0bDAyJGJ0bnNlYXJjaAURY3RsMDMkY3RsMDAkYnRuR28Bx0X2ZNCnFVmzgKMy6zV/iu14BA==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="822A24EC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQLw+vqVDAK+8sLVAgL7sODvAQLO2s6SBAL20d/fDKXgjGU0Hgb4XtmpXSCro34ITaSD" />
+</div>
+			<table style='BORDER-RIGHT: #dcdcdc 0px solid; BORDER-LEFT: #dcdcdc 0px solid;  BORDER-BOTTOM: #dcdcdc 0px solid;'  cellSpacing='0' cellPadding='0' align='center' bgColor='#ffffff'>
+<tr><td>
+<TABLE id='Table2' cellSpacing='0' cellPadding='0' width='996' align='center' border='0'>
+<tr><td>
+
+<script language="javascript" src="/js/ubb.js" type="text/javascript"></script>
+<table cellSpacing="0" cellPadding="0" width="998" align="center" border="0">
+	
+	<tr>
+		<td colSpan="17">
+			<OBJECT codeBase="common\swflash.cab" height="137" width="998" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+				VIEWASTEXT>
+				<PARAM NAME="_cx" VALUE="26458">
+				<PARAM NAME="_cy" VALUE="4524">
+				<PARAM NAME="FlashVars" VALUE="">
+				<PARAM NAME="Movie" VALUE="/images2015/hn.swf">
+				<PARAM NAME="Src" VALUE="/images2015/hn.swf">
+				<PARAM NAME="WMode" VALUE="Transparent">
+				<PARAM NAME="Play" VALUE="-1">
+				<PARAM NAME="Loop" VALUE="-1">
+				<PARAM NAME="Quality" VALUE="High">
+				<PARAM NAME="SAlign" VALUE="">
+				<PARAM NAME="Menu" VALUE="-1">
+				<PARAM NAME="Base" VALUE="">
+				<PARAM NAME="AllowScriptAccess" VALUE="">
+				<PARAM NAME="Scale" VALUE="ShowAll">
+				<PARAM NAME="DeviceFont" VALUE="0">
+				<PARAM NAME="EmbedMovie" VALUE="0">
+				<PARAM NAME="BGColor" VALUE="">
+				<PARAM NAME="SWRemote" VALUE="">
+				<PARAM NAME="MovieData" VALUE="">
+				<PARAM NAME="SeamlessTabbing" VALUE="1">
+				<PARAM NAME="Profile" VALUE="0">
+				<PARAM NAME="ProfileAddress" VALUE="">
+				<PARAM NAME="ProfilePort" VALUE="0">
+				<PARAM NAME="AllowNetworking" VALUE="all">
+				<PARAM NAME="AllowFullScreen" VALUE="false">
+				<embed src="/images2015/hn.swf" width="998" height="137" quality="high" pluginspage="common\swflash.cab"
+					type="application/x-shockwave-flash" wmode="transparent"> </embed>
+			</OBJECT>
+		</td>
+	</tr>
+	
+	<!--<tr> 
+    <td colspan="16"><img src="/images2015/top.gif" width="998" height="137"></td>
+  </tr>-->
+	<tr>
+		<td width="11"><IMG height="33" src="/images2015/top_02.gif" width="11"></td>
+		<td bgcolor='#'><a href='/index.aspx' target='_self'><img src='/uploadfile/NavFile/20150930051553system.gif' border='0'></a></td><td bgcolor='#'><a href='/organization.aspx' target='_self'><img src='/uploadfile/NavFile/20150930051605system.gif' border='0'></a></td><td bgcolor='#'><a href='http://10.2.61.3:82/FLFGWeb/flfg.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051613system.gif' border='0'></a></td><td bgcolor='#'><a href='/leaveword/wyly.aspx?bmid=00' target='_blank'><img src='/uploadfile/NavFile/20150930051703system.gif' border='0'></a></td><td bgcolor='#'><a href='/leaveword/wyly.aspx?bmid=20' target='_blank'><img src='/uploadfile/NavFile/20150930051726system.gif' border='0'></a></td><td bgcolor='#'><a href='http://10.2.61.3:88/Addresslist.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051736system.gif' border='0'></a></td><td bgcolor='#'><a href='/xzzx.aspx' target='_self'><img src='/uploadfile/NavFile/20150930051745system.gif' border='0'></a></td><td bgcolor='#'><a href='/datatrans.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051752system.gif' border='0'></a></td><td bgcolor='#'><a href='/movie.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051806system.gif' border='0'></a></td><td bgcolor='#'><a href='/news/bgxt.htm' target='_blank'><img src='/uploadfile/NavFile/20150930051813system.gif' border='0'></a></td><td bgcolor='#'><a href='/news/news_loginchk.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051821system.gif' border='0'></a></td><td bgcolor='#'><a href='' target='_blank'><img src='/uploadfile/NavFile/20150930051834system.gif' border='0'></a></td>
+		<td width="62"><A style="CURSOR: hand; COLOR: #c50000" onclick="this.style.behavior='url(#default#homepage)';this.sethomepage('http://10.56.25.129/movie.aspx');" href="#" ><IMG style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px"
+					height="33" src="/images2015/top_15_15.gif" width="79"></A></td>
+		<td width="6"><IMG src="/images2015/top_17.png" width="6"></td>
+	</tr>
+
+</table>
+
+</td></tr>
+<tr><td align='left' >
+<TABLE id='Table3' cellSpacing='0' cellPadding='0' width='990' border='0'>
+<tr>
+<td align='center'  valign='top' style='border:#ffffff 0px solid;' RowSpan='1' Colspan='1'>
+
+<!--
+<table cellSpacing="0" cellPadding="0" width=170 border="0">
+	<tr>
+		<td><IMG height="38" src="/images/spdb_01.gif"></td>
+	</tr>
+	<tr>
+		<td background="/images/spdb_02.gif">
+			<table cellSpacing="0" cellPadding="0" width="121" align="center" border="0">
+				<tr><td height='25'><a href='movie.aspx?lbid=0100'  target=''>领导活动报道</a></td></tr><tr><td height='25'><a href='movie.aspx?lbid=0200'  target=''>消防新闻报道</a></td></tr><tr><td height='25'><a href='movie.aspx?lbid=0300'  target=''>娱乐视频</a></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="3"><IMG height="3" src="/images/spdb_03.gif" width=170></td>
+	</tr>
+</table>
+-->
+<br/>
+<table width=170 border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td ><IMG src="/images/spdb_011.gif"></td>
+	</tr>
+	<tr>
+		<td background="/images/zsc_173.gif">
+			<table width="121" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr><td height='25'><a href='movie.aspx?lbid=0100'  target=''>领导活动报道</a></td></tr><tr><td height='25'><a href='movie.aspx?lbid=0200'  target=''>消防新闻报道</a></td></tr><tr><td height='25'><a href='movie.aspx?lbid=0300'  target=''>娱乐视频</a></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="1" bgcolor="#3f99ef"></td>
+	</tr>
+</table>
+
+ <table cellpadding="0" cellspacing="0" width="20" align="center" border="0">
+      <tr><td height="10"></td></tr>
+      </table>
+
+<table  height="167" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="176" height="30"><img src="/images/zsc_75.gif" width="176" height="30"></td>
+	</tr>
+	<tr>
+		<td background="/images/zsc_731.gif">
+			<table width="169" height="116" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="10"><FONT face="宋体"></FONT></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">视频名：</td>
+					<td width="100" height="25">
+						<input name="ctl02$txtsearch" type="text" id="ctl02_txtsearch" style="width:100px;" />&nbsp;</td>
+				<tr>
+					<td height="25">&nbsp;</td>
+					<td height="25"><input type="image" name="ctl02$btnsearch" id="ctl02_btnsearch" src="images/xw_10.gif" style="border-width:0px;" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="1" bgcolor="#3f99ef"></td>
+	</tr>
+</table>
+
+</td>
+<td align='center'  valign='top' style='border:#ffffff 0px solid;' RowSpan='1' Colspan='1'>
+
+<br/>
+<table width=726 border="0" cellpadding="0" cellspacing="1" bgcolor="#3f99ef">
+              <tr> 
+                <td height="32" background="/images/zsc_77.gif"><img src="/images/zsc_76.gif" width="123" height="29"></td>
+              </tr>
+              <tr>
+                <td height="400" bgcolor="#ffffff" valign="top"><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+		<td><span id="ctl03_lblnorecord" style="color:Red;">数据库中没有记录</span></td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td>
+			<table id="ctl03_ctl00_tbContainer" cellspacing="0" cellpadding="0" width="100%" border="0" align="center">
+	<tr height="23">
+		<TD align="right" valign="middle"><span id="ctl03_ctl00_lbCurrent">共0条记录 第0页/共0页</span>&nbsp;
+			<span id="ctl03_ctl00_lbItemCount">10项/页</span>
+		</TD>
+		<TD align="right" valign="middle">
+			<a id="ctl03_ctl00_btnFront" disabled="disabled" style="color:Blue;">首页</a>&nbsp;
+			<a id="ctl03_ctl00_btnPrev" disabled="disabled" style="color:Blue;">前一页</a>&nbsp;
+			<a id="ctl03_ctl00_btnNext" disabled="disabled" style="color:Blue;">下一页</a>&nbsp;
+			<a id="ctl03_ctl00_btnEnd" disabled="disabled" style="color:Blue;">末页</a>&nbsp;&nbsp;转到 
+			第
+			<input name="ctl03$ctl00$tbPageNo" type="text" value="0" id="ctl03_ctl00_tbPageNo" style="background-color:White;border-color:Black;border-width:1px;border-style:Solid;font-family:宋体;font-size:9pt;width:30px;" />页
+			<input type="image" name="ctl03$ctl00$btnGo" id="ctl03_ctl00_btnGo" src="\images\xw_12.gif" style="border-width:0px;" />&nbsp;
+		</TD>
+	</tr>
+</table>
+
+</td>
+	</tr>
+                  </table>
+                </td>
+              </tr>
+            </table></TD></TR></TABLE>
+<br/>
+
+</td>
+</tr>
+</table></td></tr>
+<tr><td>
+   
+<table width="998" border="0" align="center" cellpadding="0" cellspacing="0" style=" MARGIN-TOP:10px; BACKGROUND:url(/images2015/botm_bg.gif) repeat-x; COLOR:#fff; HEIGHT:129px">
+  <tr> 
+    <td width="885" height="4"></td>
+  </tr>
+  <tr> 
+    <td align="center">
+       <font color="#ffffff"> Copyright (C) 2015 All Rights Reserved. 版权所有 河南消防总队<br>
+         联系地址：河南省郑州市福元路158号　联系电话：0371-66615111<br>
+         </font>
+     </td>
+   </tr>
+</table>
+
+</td></tr></table></td></tr></table>
+
+		</form>
+	</body>
+</HTML>

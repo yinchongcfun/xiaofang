@@ -1,0 +1,110 @@
+
+<link rel="stylesheet" href="__HOME_URL__/css/common.css">
+<script type="text/javascript" src="__HOME_URL__/js/1.7.1.min.js"></script>
+        <style>
+            .top_bj img{width: 100%;height: 153px}
+        </style>
+<!--头部标题图开始-->
+<div class="top_bj">
+    <div class="banner">
+
+        <div class="ad">
+            <!--焦点图片开始-->
+            <DIV id="oTransContainer" style="FILTER: progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0, wipeStyle=0, motion='forward'); WIDTH: 332px; HEIGHT: 145px">
+                <IMG id=oDIV1 style="BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; DISPLAY: yes;  BORDER-LEFT: black 0px solid;
+                BORDER-BOTTOM: black 0px solid" height=80px src="__HOME_URL__/images/ad1.png" width=200PX border=0>
+                <IMG id=oDIV2 style="BORDER-RIGHT: black 0px solid;
+                BORDER-TOP: black 0px solid; DISPLAY: none; BORDER-LEFT: black 0px solid;
+                BORDER-BOTTOM: black 0px solid" height=80px src="__HOME_URL__/images/ad2.png" width=200PX border=0>
+                <IMG id=oDIV3 style="BORDER-RIGHT: black 0px solid;
+                BORDER-TOP: black 0px solid; DISPLAY: none; BORDER-LEFT:
+                black 0px solid; BORDER-BOTTOM: black 0px solid" height=80px src="__HOME_URL__/images/ad1.png" width=200PX border=0>
+            </DIV>
+        </div>
+        <!--ad end-->
+        <div class="flash">
+            <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="380" height="110"  style="position:absolute; right:100px; bottom:20px;">
+                <param name="movie" value="__HOME_URL__/images/flash.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <param name="swfversion" value="11.0.0.0" />
+                <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+                <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="__HOME_URL__/images/flash.swf" width="380" height="110">
+                    <!--<![endif]-->
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="transparent" />
+                    <param name="swfversion" value="11.0.0.0" />
+                    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+                    <div>
+                        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </div>
+        <!--flash end-->
+    </div>
+    <!--banner end-->
+</div>
+<!--头部标题图结束-->
+<!--头部导航栏开始-->
+<div class="nav">
+    <div  class="nav_menus">
+        <div class="nav_buju">
+            <ul>
+                <li><a href="{:U('Index/index')}">首页</a></li>
+
+                <li><a href="#">组织机构</a></li>
+                <li><a href="#">法律法规</a></li>
+                <li><a href="{:U('Lmsg/lmsg_list')}">支队长信箱</a></li>
+                <li><a href="__ROOT__{$upload_url.upload_url}">通信手册</a></li>
+
+                <li><a href="{:U('File/file_list')}">下载中心</a></li>
+                <li><a href="#">数据传输</a></li>
+                <li><a href="{:U('Video/video_list')}">视频点播</a></li>
+                <li><a href="#">办公系统</a></li>
+                <li><a href="{:U('UserCenter/index')}">在线投稿</a></li>
+                <li><a href="#">旧版网站</a></li>
+                <li><a href="#">设为首页</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<SCRIPT>
+    var NowFrame = 1;
+    var MaxFrame = 3;
+    var bStart = 0;
+    function fnToggle() {
+        var next = NowFrame + 1;
+        if(next == MaxFrame+1)
+        {
+            NowFrame = MaxFrame;
+            next = 1;
+        }
+        if(bStart == 0)
+        {
+            bStart = 1;
+
+            setTimeout('fnToggle()', 1000);
+            return;
+        }
+        else
+        {
+            $("#oTransContainer").filters[0].Apply();
+            document.images['oDIV'+next].style.display = "";
+            document.images['oDIV'+NowFrame].style.display = "none";
+            $("#oTransContainer").filters[0].Play(duration=5);
+            if(NowFrame == MaxFrame)
+                NowFrame = 1;
+            else
+                NowFrame++;
+        } setTimeout('fnToggle()', 6000);
+    }
+    fnToggle();
+</SCRIPT>
+<!--头部导航栏结束-->

@@ -1,0 +1,89 @@
+<include file="Layout/_meta" />
+<title>值班信息修改</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> <a href="{:U('Index/welcome')}">首页</a> <span class="c-gray en">&gt;</span> 值班信息管理 <span class="c-gray en">&gt;</span> 值班信息修改 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+
+<article class="page-container">
+		<form class="form  form-horizontal" method="post"  enctype="multipart/form-data" action="__SELF__" id="form-article-add">
+			<input type="text" class="input-text" hidden value="{$duty_msg.id}"  name="id">
+			<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>值班日期：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+					<input  value="{:date('Y-m-d',$duty_msg['duty_time'])}" type="text" class="input-text " disabled  style="width:190px;">
+			</div>
+				</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>值班首长：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+				<input type="text" class="input-text" value="{$duty_msg.db_leader}" placeholder="带班首长"  name="db_leader">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>值班长：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+				<input type="text" class="input-text" value="{$duty_msg.zb_leader}" placeholder="值班长"  name="zb_leader">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>行政值班：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+				<input type="text" class="input-text" value="{$duty_msg.zb_duty}" placeholder="行政值班"  name="zb_duty">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>作战值班：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+				<input type="text" class="input-text" value="{$duty_msg.zh_duty}" placeholder="作战值班"  name="zh_duty">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>保障组：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+				<input type="text" class="input-text" value="{$duty_msg.zh_center}" placeholder="保障组"  name="zh_center">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>指挥中心专职值班：</label>
+			<div class="formControls col-xs-8 col-sm-2">
+				<input type="text" class="input-text" value="{$duty_msg.jg_duty}" placeholder="指挥中心专职值班"  name="jg_duty">
+			</div>
+		</div>
+		<!--<div class="row cl">-->
+			<!--<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>指挥中心专职值班：</label>-->
+			<!--<div class="formControls col-xs-8 col-sm-2">-->
+				<!--<input type="text" class="input-text" value="{$duty_msg.tx_duty}" placeholder="指挥中心专职值班"  name="tx_duty">-->
+			<!--</div>-->
+		<!--</div>-->
+		<!--<div class="row cl">-->
+			<!--<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>宣传值班：</label>-->
+			<!--<div class="formControls col-xs-8 col-sm-2">-->
+				<!--<input type="text" class="input-text" value="{$duty_msg.xc_duty}" placeholder="宣传值班"  name="xc_duty">-->
+			<!--</div>-->
+		<!--</div>-->
+		<!--<div class="row cl">-->
+			<!--<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>车管值班：</label>-->
+			<!--<div class="formControls col-xs-8 col-sm-2">-->
+				<!--<input type="text" class="input-text" value="{$duty_msg.car_duty}" placeholder="车管值班"  name="car_duty">-->
+			<!--</div>-->
+		<!--</div>-->
+		<div class="row cl">
+			<div class="col-xs-9 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+				<button  class="btn btn-default radius" onclick="javascript:history.back()" type="reset">&nbsp;&nbsp;返回&nbsp;&nbsp;</button>
+			</div>
+		</div>
+		</form>
+</article>
+<!--<webuploaderjs />-->
+<!--_footer 作为公共模版分离出去-->
+<include file="Layout/_footer" /> <!--/_footer /作为公共模版分离出去-->
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__ADMIN_URL__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<!--/请在上方写此页面业务相关的脚本-->
+<script>
+
+</script>
+
+</body>
+</html>

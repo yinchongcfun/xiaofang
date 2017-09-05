@@ -1,0 +1,116 @@
+<include file="Layout/_meta" />
+<title>新闻列表</title>
+
+<link rel="stylesheet" href="__ADMIN_URL__/css/news_view.css">
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 列表页 <span class="c-gray en">&gt;</span> 审核新闻 </nav>
+<div class="page-container">
+<!--导航开始-->
+<foreach name="newsmsg" item="vo">
+<div style="float: right;margin: 0 10px"> <p><button><a href="javascript:" onclick="self.location=document.referrer;"  style="color: #3389DE; font-size: 20px;font-weight: bold;cursor: pointer">返回上一页</a></button></p></div>
+ <nav style="height: 40px">
+    <if condition="$vo[status]==0 ">
+     <div style="float: left;margin: 0 10px" id="success"> <p><button><a  onClick="submit_success(this,'__CONTROLLER__/submit_success/id/{$vo.id}','{$vo.id}')" href="javascript:;" style="color: #3389DE; font-size: 20px ;font-weight: bold;margin: 20px 0px;cursor: pointer">审核通过</a></button></p></div>
+     <div style="float: left;" id="fail"> <p><button><a onClick="submit_fail(this,'__CONTROLLER__/submit_fail/id/{$vo.id}','{$vo.id}')" href="javascript:;" style="color:red; font-size: 20px ;font-weight: bold;margin: 20px 0px;cursor: pointer">审核不通过</a></button></p></div>
+    <else/>
+    <if condition="$vo[status]==1 ">
+        <div style="float: right"> <p><a onClick="submit_success2(this,'__CONTROLLER__/submit_success/id/{$vo.id}','{$vo.id}')" href="javascript:;" style="color: #3389DE; font-size: 20px ;font-weight: bold;margin: 20px 0px;cursor: pointer">审核已经通过</a></p></div>
+     <else/>
+    <div style="float: right"> <p><a style="color:red;; font-size: 20px ;font-weight: bold;margin: 20px 0px;cursor: pointer">审核未通过</a></p></div>
+  </if>
+  </if>
+     <if condition="$vo.verifier eq null">
+        <div  style=" margin:0 auto;color: red; font-size: 20px ;font-weight: bold;">当前审核人:<span name="verifier" id="verifier">{$Think.session.username}</span></div>
+         <else/>
+         <div name=" " style=" margin:0 auto;color: red; font-size: 20px ;font-weight: bold;">审核人:<span>{$vo.verifier}</span></div>
+     </if>
+ </nav>
+<div class="newsdetail">
+    <div class="content">
+        <div class="content_title">
+            <h1>{$vo.title}</h1>
+        </div>
+        <hr>
+        <div class="content_note">
+            <div class="s">
+                <span>作者：{$vo.author}</span>
+                <span>图/{$vo.author}</span>
+                <span>时间：{:date('m-d',$vo['add_time'])}</span>
+                <span>浏览 {$vo.view}人次</span>
+            </div>
+        </div>
+        <div class="main">
+            {$vo.content|htmlspecialchars_decode}
+        </div>
+    </div>
+  </div>
+</foreach>
+
+</div>
+<!--_footer 作为公共模版分离出去-->
+<!--请在下方写此页面业务相关的脚本-->
+<include file="Layout/_footer" />
+<script>
+    function submit_success(obj,url,id) {
+        layer.confirm('确认要提交审核通过吗？', function (index) {
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+                    if (data) {
+                        $(obj).parents("tr").remove();
+                        layer.msg('审核成功!', {icon: 1, time: 1000});
+                        $(obj).html('审核通过');
+                        $('#fail').hide();
+                        $(obj).removeAttr('onclick')
+                    } else {
+                        layer.msg('审核失败', {icon: 5, time: 1000});
+                    }
+                },
+                error: function (data) {
+                    layer.msg('审核失败~', {icon: 5, time: 1000});
+                    console.log(data.msg);
+                }
+            });
+        })
+    }
+
+    function submit_success2(obj,url,id) {
+    layer.msg('你已经审核成功，请返回上一页', {icon: 1, time: 1000});
+
+    }
+
+    function submit_fail(obj,url,id) {
+        layer.confirm('确认要审核不通过吗？', function (index) {
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+
+                    if (data==1) {
+                        $(obj).parents("tr").remove();
+                        layer.msg('审核成功!', {icon: 1, time: 1000});
+                        $(obj).html('审核成功');
+                        $('#success').hide();
+                        $(obj).removeAttr('onclick')
+                    } else {
+                        layer.msg('审核操作失败！', {icon: 5, time: 1000});
+                    }
+                },
+                error: function (data) {
+                    layer.msg('服务器操作失败!', {icon: 5, time: 1000});
+                    console.log(data.msg);
+                }
+            });
+        })
+    }
+    var ajax;
+    if(window.XMLHttpRequest){ ajax = new XMLHttpRequest();}else{ ajax = new ActiveXObject('Microsoft.XMLHTTP');}
+    ajax.open('GET','__CONTROLLER__/set_hits/id/{$_GET[\'id\']}',true);
+    ajax.send();
+</script>
+</body>
+</html>

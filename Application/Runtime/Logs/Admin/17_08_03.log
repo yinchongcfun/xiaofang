@@ -1,0 +1,21 @@
+[ 2017-08-03T16:21:18+08:00 ] 127.0.0.1 /admin/article/create
+ERR: 无法加载控制器:Article
+
+[ 2017-08-03T16:40:34+08:00 ] 127.0.0.1 /index.php/Admin/Category/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Category" AND action_name="del" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: DELETE FROM `category` WHERE ( cate_id = 29 ) [ RunTime:0.1367s ]
+
+[ 2017-08-03T17:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Category/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Category" AND action_name="del" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: DELETE FROM `category` WHERE ( cate_id = 30 ) [ RunTime:0.0707s ]
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>下载中心</title>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <link rel="stylesheet" href="__ROOT__/Application/Home/View/Layout/page.css"/>
+    <style>
+        .newsContaint{width: 1100px;height: 700px;border: 0px solid red;margin: 0 auto}
+        .content_left{ width:75%;height: auto;border:1px  solid  gainsboro; margin: 5px;float: left;}
+        .content_left_nav{ width:98%; height:25px;color:#3389DE;font-weight: bold;height: 25px;  padding: 5px }
+        .content_left_content li{margin-top: 20px; border-bottom:1px dashed  darkgrey;}
+        .content_left_content li  span{float: right;margin-right: 20px}
+        .content_left_content  img{width: 15px;height: 15px;  margin: -1px  10px}
+    </style>
+<!--头部开始-->
+</head>
+<body style="background-color: rgb(204,232,207)">
+<div class="top">
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+<div class="newsContaint">
+    <div class="content_left">
+        <div  class="content_left_nav">当前位置<span>  >> </span>下载中心<span>  >> </span></div>
+        <div   class="content_left_content" >
+            <ul>
+                <volist  name="fileInfo" id="vo">
+                    <li>
+                        <img src="__HOME_URL__/imgs/icon.gif"/>
+                        <a class="a_biaoqian" href="{:U('File/download_file',array('id'=>$vo['id']))}">{$vo.file_name}</a>
+                        <span>{:date('Y-m-d ',$vo['add_time'])}</span>
+                    </li>
+                </volist>
+            </ul>
+            <br>
+            <span  class="pages" style="margin-right: 20px;float: right"> {$pagelist} </span>
+        </div>
+    </div>
+</div>
+
+
+<!--footer引入-->
+<include file="Layout/footer" />
+
+</body>
+</html>

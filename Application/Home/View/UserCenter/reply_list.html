@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>回复列表</title>
+    <style>
+        body{background-color: rgb(204,232,207);}
+    .huifu{width: 1000px;height: 600px;margin: 0 auto;}
+    .huifu span{line-height: 40px;font-weight: bold;font-size: 18px;margin-left: 10px}
+    .lbrbcenter{width: 1000px;height: 35px;border: 1px solid  gainsboro;margin: 0 auto}
+    .lbrbcenter{width: 100%;height: 35px;border: 1px solid  gainsboro;}
+    .lbrbcenter_l{width: 45%;height:35px;border: 0px solid  burlywood;float: left;text-align: center;font-size: 15px;line-height: 35px}
+    .lbrbcenter_r{width: 45%;height: 35px;border: 0px solid  green;float: right}
+    .lbrbcenter_r  a{color: grey;font-size: 15px;line-height: 35px;margin-left: 10px}
+    .lbrbcenter_r span{font-size: 15px;margin-left: 10px}
+    .lbrbcenter_r input{width: 16px;height: 12px;border: 1px solid  gray}
+    .lbrbcenter_r a img{width: 25px;border: 0px;}
+    .table_bj{width: 100%;border-collapse: collapse}
+    .table_bj tr{height: 35px;border-collapse: collapse;border: 1px  solid ghostwhite}
+    .table_bj td{padding-left: 8px;border-collapse: collapse;border: 1px  solid  ghostwhite}
+    .table_bj td a{color: grey;text-decoration: none}
+    .table_bj td a:hover{color: #FFF}
+    </style>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+
+    <link rel="stylesheet" href="__ROOT__/Application/Home/View/Layout/page.css"/>
+</head>
+<script type="text/javascript" src="__HOME_URL__/js/1.7.1.min.js"></script>
+
+<body style="background-color: rgb(204,232,207)">
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+    <div class="huifu">
+    <span>回复列表</span> <br>
+        <table class="table_bj" >
+            <tr style="background-color: #CCEEFF;height: 35px">
+            <td> 新闻标题</td>
+            <td> 回复时间</td>
+            <td> 回复人</td>
+            <td> 回复内容</td>
+            <td> 操作</td>
+            </tr>
+            <volist name="info" id="vo">
+                <tr>
+                    <td>{$vo.title|mb_substr=0,15,'utf-8'}...</td>
+                    <td>{:date('Y-m-d',$vo['add_time'])}</td>
+                    <td>{$vo.shr}</td>
+                    <td>{$vo.reply_msg|mb_substr=0,10,'utf-8'}... </td>
+                    <td><a href="javascript:" onclick="showMsg(this,'__CONTROLLER__/reply_detail/id/{$vo.id}')">回复详情</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+        <span  class="pages" style="margin-right: 20px;float: right"> {$pagelist} </span>
+    </div>
+    
+    <!--隐藏区域-->
+    <div class="msg-container" id="msg_div"
+         style="display:none;width:300px; height:300px; background-color:#CCE8CF;margin:0 auto;opacity: 1 ;
+         border:1px solid #CCC;
+      background-color: ghostwhite;
+        border:1px solid #333;
+        padding:5px;
+        position: absolute;
+        overflow: hidden; ">
+        <p  style="margin-top: 5px;margin-left: 92%"><button id="guanbi" onclick="guanbi()"> 关闭</button></p>
+        <p style="text-align: center">回复信息如下：</p>
+        <br>
+        <span name="reply_msg" id="reply_msg" style="width: 100%;height: 100%;z-index: 200;" scroll="auto"></span>
+
+    </div>
+    <!--隐藏区域结束-->
+    <script>
+
+        function guanbi(){
+            $("#msg_div").css('display','none')
+        }
+            function showMsg(obj,url) {
+//                alert(url);
+                $.ajax({
+                    type: "GET",
+                    url: url,
+//                    data: {id:id},
+                    dataType: "text",
+                    success: function (data) {
+                        var html = data;
+                        $('#reply_msg').html(html);
+                        var popUp = document.getElementById("msg_div");
+                        popUp.style.top = "150px";
+                        popUp.style.left = "30%";
+                        popUp.style.width = "600px";
+                        popUp.style.height ="300px";
+                        $('#msg_div').css('display','block');
+                    },
+                    error: function(data) {
+                        alert(data);
+                    }
+                });
+            }
+
+    </script>
+    <div class="lbrbcenter">
+        <div class="lbrbcenter_l">
+            <!--共81条记录  第1页/共9页  10项/页-->
+        </div>
+        <div class="lbrbcenter_r">
+            
+        </div>
+    </div>
+<!--footer引入-->
+<include file="Layout/footer" />
+</body>
+</html>

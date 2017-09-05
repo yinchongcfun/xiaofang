@@ -1,0 +1,572 @@
+
+<HTML>
+	<HEAD>
+		<title>高级搜索</title>
+		 
+
+		 
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		 
+		<LINK href="/css/Default.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body bottomMargin="0" bgColor="#ffffff" leftMargin="0" topMargin="0" rightMargin="0"  >
+		<form name="Form1" method="post" action="advancedSearch.aspx" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FAC9CF4C" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLAK9oe6ADQLDo/jiDQK+zdKMAQLTzJKPAQLTzPKMAQLMzKaPAQLNzJ6PAQLNzJqPAQLNzKaPAQKO2JPMDwKbqtTABgKW19axAQKW19qwAQKW196zAQKW1+KyAQKW1+a1AQKW1/K2AQKW1+q0AQKW17aJAQLI17qIAQKW17qIAQKr1+KyAQKW1+63AQLp0NqwAQLp0NaxAQLp0N6zAQLI1+KyAQLI1/K2AQLI17aJAQKr19axAQLp0OKyAQKr19qwAQKr196zAQLm35qADQLlkPToBQLJ3MLVAgKp/7XsBQLfqO7pDQKdqY3EBAL6l+DvAQLTnrX/DgKit4SFCgK3zN+LDAKht5y6C9+vBAPjzrMqVXUCkIV7D2J7TZLO" />
+</div>
+			<table style='BORDER-RIGHT: #dcdcdc 0px solid; BORDER-LEFT: #dcdcdc 0px solid;  BORDER-BOTTOM: #dcdcdc 0px solid;'  cellSpacing='0' cellPadding='0' align='center' bgColor='#ffffff'>
+<tr><td>
+<TABLE id='Table2' cellSpacing='0' cellPadding='0' width='996' align='center' border='0'>
+<tr><td>
+
+<script language="javascript" src="/js/ubb.js" type="text/javascript"></script>
+<table cellSpacing="0" cellPadding="0" width="998" align="center" border="0">
+	
+	<tr>
+		<td colSpan="17">
+			<OBJECT codeBase="common\swflash.cab" height="137" width="998" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+				VIEWASTEXT>
+				<PARAM NAME="_cx" VALUE="26458">
+				<PARAM NAME="_cy" VALUE="4524">
+				<PARAM NAME="FlashVars" VALUE="">
+				<PARAM NAME="Movie" VALUE="/images2015/hn.swf">
+				<PARAM NAME="Src" VALUE="/images2015/hn.swf">
+				<PARAM NAME="WMode" VALUE="Transparent">
+				<PARAM NAME="Play" VALUE="-1">
+				<PARAM NAME="Loop" VALUE="-1">
+				<PARAM NAME="Quality" VALUE="High">
+				<PARAM NAME="SAlign" VALUE="">
+				<PARAM NAME="Menu" VALUE="-1">
+				<PARAM NAME="Base" VALUE="">
+				<PARAM NAME="AllowScriptAccess" VALUE="">
+				<PARAM NAME="Scale" VALUE="ShowAll">
+				<PARAM NAME="DeviceFont" VALUE="0">
+				<PARAM NAME="EmbedMovie" VALUE="0">
+				<PARAM NAME="BGColor" VALUE="">
+				<PARAM NAME="SWRemote" VALUE="">
+				<PARAM NAME="MovieData" VALUE="">
+				<PARAM NAME="SeamlessTabbing" VALUE="1">
+				<PARAM NAME="Profile" VALUE="0">
+				<PARAM NAME="ProfileAddress" VALUE="">
+				<PARAM NAME="ProfilePort" VALUE="0">
+				<PARAM NAME="AllowNetworking" VALUE="all">
+				<PARAM NAME="AllowFullScreen" VALUE="false">
+				<embed src="/images2015/hn.swf" width="998" height="137" quality="high" pluginspage="common\swflash.cab"
+					type="application/x-shockwave-flash" wmode="transparent"> </embed>
+			</OBJECT>
+		</td>
+	</tr>
+	
+	<!--<tr> 
+    <td colspan="16"><img src="/images2015/top.gif" width="998" height="137"></td>
+  </tr>-->
+	<tr>
+		<td width="11"><IMG height="33" src="/images2015/top_02.gif" width="11"></td>
+		<td bgcolor='#'><a href='/index.aspx' target='_self'><img src='/uploadfile/NavFile/20150930051553system.gif' border='0'></a></td><td bgcolor='#'><a href='/organization.aspx' target='_self'><img src='/uploadfile/NavFile/20150930051605system.gif' border='0'></a></td><td bgcolor='#'><a href='http://10.2.61.3:82/FLFGWeb/flfg.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051613system.gif' border='0'></a></td><td bgcolor='#'><a href='/leaveword/wyly.aspx?bmid=00' target='_blank'><img src='/uploadfile/NavFile/20150930051703system.gif' border='0'></a></td><td bgcolor='#'><a href='/leaveword/wyly.aspx?bmid=20' target='_blank'><img src='/uploadfile/NavFile/20150930051726system.gif' border='0'></a></td><td bgcolor='#'><a href='http://10.2.61.3:88/Addresslist.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051736system.gif' border='0'></a></td><td bgcolor='#'><a href='/xzzx.aspx' target='_self'><img src='/uploadfile/NavFile/20150930051745system.gif' border='0'></a></td><td bgcolor='#'><a href='/datatrans.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051752system.gif' border='0'></a></td><td bgcolor='#'><a href='/movie.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051806system.gif' border='0'></a></td><td bgcolor='#'><a href='/news/bgxt.htm' target='_blank'><img src='/uploadfile/NavFile/20150930051813system.gif' border='0'></a></td><td bgcolor='#'><a href='/news/news_loginchk.aspx' target='_blank'><img src='/uploadfile/NavFile/20150930051821system.gif' border='0'></a></td><td bgcolor='#'><a href='' target='_blank'><img src='/uploadfile/NavFile/20150930051834system.gif' border='0'></a></td>
+		<td width="62"><A style="CURSOR: hand; COLOR: #c50000" onclick="this.style.behavior='url(#default#homepage)';this.sethomepage('http://10.56.25.129/news/advancedSearch.aspx');" href="#" ><IMG style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px"
+					height="33" src="/images2015/top_15_15.gif" width="79"></A></td>
+		<td width="6"><IMG src="/images2015/top_17.png" width="6"></td>
+	</tr>
+
+</table>
+
+</td></tr>
+<tr><td align='left' >
+<TABLE id='Table3' cellSpacing='0' cellPadding='0' width='990' border='0'>
+<tr>
+<td align='center'  valign='top' style='border:#ffffff 0px solid;' RowSpan='1' Colspan='1'>
+
+<script language="javascript">
+		
+		var   Fun_Year = 2017;
+		var   Fun_Month = 8;
+		var   Fun_Day = 3;
+</script>
+<script language="javascript" src="../js/calendar.js"></script>
+<script language="javascript" src="../js/ajax.js"></script>
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td height="10"></td>
+	</tr>
+</table>
+<table cellSpacing="0" cellPadding="0" border="0">
+	<tr>
+		<td><img src="/images2015/gjss_001.gif" width="198" height="29"></td>
+	</tr>
+	<tr>
+		<td height="145" background="/images2015/gjss_002.jpg">
+			<table width="198" height="116" border="0" align="center" cellpadding="0" cellspacing="0"
+				style="PADDING-LEFT:12px">
+				<tr>
+					<td width="61" height="25">所属部门：</td>
+					<td width="115" height="25">
+						<select name="ctl01$dropdep" onchange="javascript:setTimeout('__doPostBack(\'ctl01$dropdep\',\'\')', 0)" id="ctl01_dropdep" style="width:97px;">
+	<option selected="selected" value="#">--请选择站点--</option>
+	<option value="00">总站</option>
+	<option value="08">河南消防宣传网</option>
+	<option value="13">河南消防审计工作网</option>
+	<option value="21">全省夏季消防检查工作</option>
+	<option value="22">新训之窗</option>
+	<option value="23">全省冬春火灾防控专栏</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">所属类别：</td>
+					<td width="100" height="25">
+						<select name="ctl01$droptype" id="ctl01_droptype" style="width:97px;">
+	<option value="#">--请选择稿件类别--</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">所属单位：</td>
+					<td width="100" height="25">
+						<select name="ctl01$dropssdw" id="ctl01_dropssdw" style="width:97px;">
+	<option value="#">--请选择单位--</option>
+	<option value="00000">河南省公安消防总队</option>
+	<option value="01000">郑州市公安消防支队</option>
+	<option value="02000">开封市公安消防支队</option>
+	<option value="03000">洛阳市公安消防支队</option>
+	<option value="04000">平顶山市公安消防支队</option>
+	<option value="07000">新乡市公安消防支队</option>
+	<option value="05000">安阳市公安消防支队</option>
+	<option value="08000">焦作市公安消防支队</option>
+	<option value="29000">南阳市公安消防支队</option>
+	<option value="09000">濮阳市公安消防支队</option>
+	<option value="33000">郑州航空港区公安消防支队</option>
+	<option value="06000">鹤壁市公安消防支队</option>
+	<option value="11000">漯河市公安消防支队</option>
+	<option value="10000">许昌市公安消防支队</option>
+	<option value="12000">三门峡市公安消防支队</option>
+	<option value="23000">商丘市公安消防支队</option>
+	<option value="27000">周口市公安消防支队</option>
+	<option value="28000">驻马店市公安消防支队</option>
+	<option value="30000">信阳市公安消防支队</option>
+	<option value="13000">济源市公安消防支队</option>
+	<option value="31000">培训基地</option>
+	<option value="32000">总队医院</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">投 稿 人：</td>
+					<td width="100" height="25">
+						<input name="ctl01$txttgr" type="text" id="ctl01_txttgr" style="width:97px;" /></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">作 者：</td>
+					<td width="100" height="25">
+						<input name="ctl01$txtzz" type="text" id="ctl01_txtzz" style="width:97px;" /></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">文章标题：</td>
+					<td width="100" height="25">
+						<input name="ctl01$txtsearch" type="text" id="ctl01_txtsearch" style="width:97px;" /></td>
+				</tr>
+				<tr>
+					<td width="69" height="25">文章内容：</td>
+					<td width="100" height="25">
+						<input name="ctl01$txt_nr" type="text" id="ctl01_txt_nr" style="width:97px;" /></td>
+				</tr>
+				<tr>
+					<td height="25">起始时间：</td>
+					<td height="25"><FONT face="宋体">
+							<input name="ctl01$txtstatime" type="text" value="2016-08-03" id="ctl01_txtstatime" onfocus="javascript:calendar();" style="width:97px;" /></FONT></td>
+				</tr>
+				<tr>
+					<td height="25">
+						终止时间：</td>
+					<td height="25"><FONT face="宋体">
+							<input name="ctl01$txtendtime" type="text" value="2017-08-03" id="ctl01_txtendtime" onfocus="javascript:calendar();" style="width:97px;" /></FONT></td>
+				</tr>
+				<tr>
+					<td height="25">时间格式：</td>
+					<td height="25">
+						2015-01-01</td>
+				</tr>
+				<tr>
+					<td height="25">&nbsp;</td>
+					<td height="25">
+						<input type="image" name="ctl01$btnsearch" id="ctl01_btnsearch" src="/images2015/ss_10.gif" style="border-width:0px;" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="/images2015/gjss_003.png" width="198" height="10"></td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td height="10"></td>
+	</tr>
+</table>
+
+</td>
+<td align='center'  valign='top' style='border:#ffffff 0px solid;' RowSpan='1' Colspan='1'>
+
+<table cellSpacing="0" cellPadding="0" border="0">
+	<tr>
+		<td height="10"></td>
+	</tr>
+</table>
+<table width="786" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><img src="/images2015/biaoge_top.gif" width="786" height="30"></td>
+	</tr>
+	<tr>
+		<td height="244" valign="top">
+			<table width="786" border="0" align="center" cellpadding="0" cellspacing="0" background="/images2015/biaoge_bg.gif">
+				<tr>
+					<td width="100%" height="51">&nbsp;&nbsp;&nbsp;&nbsp;<IMG src="/uploadfile/ModuleFile/20090106044601system1.gif"></td>
+				</tr>
+				<tr>
+					<td height="560" valign="top"><table cellspacing="0" border="0" id="ctl02_dgrdnews" style="width:696px;border-collapse:collapse;">
+	<tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727111949126fukai.aspx' target=_blank>
+														<font color="#000000">
+															漯河市集中开展党政领导乡镇网格员专题培训
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727112034778fukai.aspx' target=_blank>
+														<font color="#000000">
+															濮阳市公安局召开续会迅速贯彻落实公安部、省公安厅“7.26”会议精神
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727112100833fukai.aspx' target=_blank>
+														<font color="#000000">
+															新乡支队获嘉大队走进市民中心开展消防安全知识培训
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727112117364fukai.aspx' target=_blank>
+														<font color="#000000">
+															濮阳支队印制彩页助力沿街门店治理
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727112134204fukai.aspx' target=_blank>
+														<font color="#000000">
+															航空港区开展“百场消防电影进社区”给力夏季消防宣传
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727112438709fukai.aspx' target=_blank>
+														<font color="#000000">
+															总队召开新任副团职干部任前集体廉政谈话会
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/Admin/GetImage.aspx?filepath=/ZD00/201707/27/LB2001/20170727032713system2.doc&filename=关于收听收看部消防局卫勤业务视频培训的通知' target=_blank>
+														<font color="#000000">
+															关于收听收看部消防局卫勤业务视频培训的通知
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727034612570fukai.aspx' target=_blank>
+														<font color="#000000">
+															驻马店支队多模式宣传打造夏季消防安全长城
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727034903436fukai.aspx' target=_blank>
+														<font color="#000000">
+															王亿：从弥补“五个缺乏”做起认真践行习总书记“四句话、十六字”总要求
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727035146103fukai.aspx' target=_blank>
+														<font color="#000000">
+															安阳市王新伟市长出席全市半年消防工作推进会
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727043746851fukai.aspx' target=_blank>
+														<font color="#000000">
+															南阳支队对机关文职人员进行业务及保密培训
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727043817262fukai.aspx' target=_blank>
+														<font color="#000000">
+															鹤壁市公安局迅速贯彻落实公安部、省厅“7.26”视频会议精神
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727043839614fukai.aspx' target=_blank>
+														<font color="#000000">
+															开封支队举行武警警官警衔晋升仪式
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727043906874fukai.aspx' target=_blank>
+														<font color="#000000">
+															许昌支队组织营以下干部晋职考试
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727043928599fukai.aspx' target=_blank>
+														<font color="#000000">
+															焦作支队利用远程监控系统对地震救援突击队开展远程拉动演练
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727043946180fukai.aspx' target=_blank>
+														<font color="#000000">
+															南阳支队组织开展高层建筑灭火救援组织指挥专题授课
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727044041561fukai.aspx' target=_blank>
+														<font color="#000000">
+															沁阳市电视台录制幼儿园消防安全管理专题节目
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727044129583fukai.aspx' target=_blank>
+														<font color="#000000">
+															南阳各地纷纷举行军民双拥庆“八一“文艺汇演活动
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727045531511fukai.aspx' target=_blank>
+														<font color="#000000">
+															新乡市防委办下发《通报》强化居民住宅建筑火灾防控
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr><tr>
+		<td>
+										<TABLE width="96%" style="margin-left:20px;">
+											<TR>
+												<TD height="22"><IMG height="5" src="/images/xw_11.gif" width="5" align="textTop"> <A href='/html/news/201707/27/20170727045558529fukai.aspx' target=_blank>
+														<font color="#000000">
+															许昌市长胡五岳"八一"前夕亲切慰问消防部队官兵
+														</font></A>
+												</TD>
+												<td align="right">2017-07-27&nbsp;&nbsp;</td>
+											</TR>
+										</TABLE>
+									</td>
+	</tr>
+</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="20"></td>
+				</tr>
+				<tr>
+					<td><table id="ctl02_DataGridPager_tbContainer" cellspacing="0" cellpadding="0" width="100%" border="0" align="center">
+	<tr height="23">
+		<TD align="right" valign="middle"><span id="ctl02_DataGridPager_lbCurrent">共168条记录 第1页/共9页</span>&nbsp;
+			<span id="ctl02_DataGridPager_lbItemCount">20项/页</span>
+		</TD>
+		<TD align="right" valign="middle">
+			<a id="ctl02_DataGridPager_btnFront" disabled="disabled" style="color:Blue;">首页</a>&nbsp;
+			<a id="ctl02_DataGridPager_btnPrev" disabled="disabled" style="color:Blue;">前一页</a>&nbsp;
+			<a id="ctl02_DataGridPager_btnNext" href="javascript:__doPostBack('ctl02$DataGridPager$btnNext','')" style="color:Blue;">下一页</a>&nbsp;
+			<a id="ctl02_DataGridPager_btnEnd" href="javascript:__doPostBack('ctl02$DataGridPager$btnEnd','')" style="color:Blue;">末页</a>&nbsp;&nbsp;转到 
+			第
+			<input name="ctl02$DataGridPager$tbPageNo" type="text" value="1" id="ctl02_DataGridPager_tbPageNo" style="background-color:White;border-color:Black;border-width:1px;border-style:Solid;font-family:宋体;font-size:9pt;width:30px;" />页
+			<input type="image" name="ctl02$DataGridPager$btnGo" id="ctl02_DataGridPager_btnGo" src="\images\xw_12.gif" style="border-width:0px;" />&nbsp;
+		</TD>
+	</tr>
+</table>
+
+</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="/images2015/biaoge_botm.gif" width="786" height="27"></td>
+	</tr>
+</table>
+
+</td>
+</tr>
+</table></td></tr>
+<tr><td>
+   
+<table width="998" border="0" align="center" cellpadding="0" cellspacing="0" style=" MARGIN-TOP:10px; BACKGROUND:url(/images2015/botm_bg.gif) repeat-x; COLOR:#fff; HEIGHT:129px">
+  <tr> 
+    <td width="885" height="4"></td>
+  </tr>
+  <tr> 
+    <td align="center">
+       <font color="#ffffff"> Copyright (C) 2015 All Rights Reserved. 版权所有 河南消防总队<br>
+         联系地址：河南省郑州市福元路158号　联系电话：0371-66615111<br>
+         </font>
+     </td>
+   </tr>
+</table>
+
+</td></tr></table></td></tr></table>
+
+		</form>
+	</body>
+</HTML>

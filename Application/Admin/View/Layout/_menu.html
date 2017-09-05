@@ -1,0 +1,56 @@
+<aside class="Hui-aside">
+	<div class="menu_dropdown bk_2">
+		<dl id="menu-news">
+			<dt><i class="Hui-iconfont">&#xe616;</i> 支队新闻管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					<li><a data-href="{:U('News/news_add')}" data-title="新闻添加" href="javascript:void(0)">新闻添加</a></li>
+					<li><a data-href="{:U('Category/showlist')}" data-title="栏目管理" href="javascript:void(0)">栏目管理</a></li>
+					<li><a data-href="{:U('News/news_list')}" data-title="新闻列表" href="javascript:void(0)">新闻列表</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl id="menu-manuscript">
+			<dt><i class="Hui-iconfont">&#xe636;</i> 地区稿件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					<foreach name="rolemsg" item="vo">
+					<li><a data-href="{:U('Local/local_list',array('id'=>$vo['id']))}" data-title="{$vo.role_name}" href="javascript:void(0)">{$vo.role_name}</a></li>
+					</foreach>
+				</ul>
+			</dd>
+		</dl>
+
+		<dl id="menu-lmsg">
+			<dt><i class="Hui-iconfont">&#xe68a;</i>队长信箱<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					<!--{:U('Newslist/lst',array('cate_id'=>'8'))}-->
+					<li><a data-href="{:U('Lmsg/lmsg_list')}" data-title="总队长信箱" href="javascript:void(0)">总队长信箱</a></li>
+
+				</ul>
+			</dd>
+		</dl>
+		<dl id="menu-file">
+			<dt><i class="Hui-iconfont">&#xe63e;</i>文件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					<li><a data-href="{:U('File/file_add')}" data-title="文件添加" href="javascript:void(0)">文件添加</a></li>
+					<li><a data-href="{:U('File/file_list')}" data-title="文件列表" href="javascript:void(0)">文件列表</a></li>
+					<li><a data-href="{:U('File/maillist_add')}" data-title="文通讯录上传" href="javascript:void(0)">通讯录上传</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl id="menu-admin">
+			<dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					<li><a data-href="{:U('Role/lst')}" data-title="角色管理" href="javascript:void(0)">单位管理</a></li>
+					<li><a data-href="{:U('Privilege/lst')}" data-title="权限管理" href="javascript:void(0)">权限管理</a></li>
+					<li><a data-href="{:U('Admin/lst')}" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+</aside>
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>

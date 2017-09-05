@@ -1,0 +1,39 @@
+<include file="./Application/Admin/View/ProCategory/_header.html" />
+<body>
+<div class="page-container">
+	<form action="__SELF__" method="post" class="form form-horizontal" id="form-user-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">
+				<span class="c-red">*</span>
+				分类名称：</label>
+			<div class="formControls col-xs-6 col-sm-6">
+				<input type="text" class="input-text" value="" placeholder="" id="user-name" name="category_name">
+			</div>
+		</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">
+                <span class="c-red">*</span>
+                排序：</label>
+            <div class="formControls col-xs-6 col-sm-6">
+                <input type="text" class="input-text" value="{$info.category_sort}" placeholder="" id="category_sort" name="category_sort">
+            </div>
+        </div>
+
+		<div class="row cl">
+			<div class="col-9 col-offset-2">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+                <input class="btn btn-default radius" type="button" type="text" onclick="layer_close()" value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+
+            </div>
+		</div>
+	</form>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<include file="./Application/Admin/View/ProCategory/_footer.html" />
+<script type="text/javascript">
+$(function(){
+	
+});
+</script>
+</body>
+</html>

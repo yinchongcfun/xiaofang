@@ -1,0 +1,1066 @@
+[ 2017-08-13T13:41:56+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:43:44+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:43:54+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0011s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:45:23+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:45:58+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:46:25+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:47:05+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:47:28+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0012s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:48:09+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:48:39+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:49:29+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:50:01+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:50:22+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:50:42+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:51:21+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:52:53+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:17+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0011s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:20+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0009s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:21+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:22+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:23+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:23+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:23+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:23+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0009s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:24+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:25+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:26+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:26+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:32+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0009s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:53:58+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0016s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T13:55:56+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:25:50+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:26:22+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:27:10+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0012s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:27:17+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:28:26+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:28:36+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:29:08+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:29:54+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:30:20+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:30:48+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:31:05+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:31:31+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:32:18+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:32:57+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:33:45+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `news_cate` WHERE `news_id` = Array
+
+[ 2017-08-13T14:36:10+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0006s ]
+
+[ 2017-08-13T14:36:18+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0005s ]
+
+[ 2017-08-13T14:39:21+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003789s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0006s ]
+
+[ 2017-08-13T14:40:45+08:00 ] ::1 /news/index.php/Admin/File/fileDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005139s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="fileDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: UPDATE `file` SET `del_flag`='1' WHERE `id` = '34' [ RunTime:0.0006s ]
+
+[ 2017-08-13T14:41:02+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0005s ]
+
+[ 2017-08-13T14:42:27+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0006s ]
+
+[ 2017-08-13T14:44:27+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: UPDATE `file` SET `del_flag`='1' WHERE `id` IN ('34') [ RunTime:0.0004s ]
+
+[ 2017-08-13T14:44:49+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: UPDATE `file` SET `del_flag`='1' WHERE `id` IN ('34','33','30') [ RunTime:0.0005s ]
+
+[ 2017-08-13T14:46:36+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` IN ('205','206') [ RunTime:0.0347s ]
+
+[ 2017-08-13T14:46:44+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` IN ('207') [ RunTime:0.0478s ]
+
+[ 2017-08-13T14:47:13+08:00 ] ::1 /news/index.php/Admin/News/news_del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="news_del" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE ( id=205 ) [ RunTime:0.0359s ]
+
+[ 2017-08-13T14:47:18+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0016s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` IN ('206','207') [ RunTime:0.0799s ]
+
+[ 2017-08-13T14:47:50+08:00 ] ::1 /news/index.php/Admin/File/fileDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="fileDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: UPDATE `file` SET `del_flag`='1' WHERE `id` = '34' [ RunTime:0.0004s ]
+
+[ 2017-08-13T14:47:54+08:00 ] ::1 /news/index.php/Admin/File/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="File" AND action_name="batchDel" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: UPDATE `file` SET `del_flag`='1' WHERE `id` IN ('33','30') [ RunTime:0.0005s ]
+
+[ 2017-08-13T15:41:46+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` IN ('205') [ RunTime:0.1233s ]
+
+[ 2017-08-13T15:41:57+08:00 ] ::1 /news/index.php/Admin/News/batchDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004857s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="batchDel" [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` IN ('206') [ RunTime:0.0524s ]
+
+[ 2017-08-13T17:23:31+08:00 ] ::1 /news/index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="changeOrder" [ RunTime:0.0010s ]
+
+[ 2017-08-13T17:23:31+08:00 ] ::1 /news/index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="changeOrder" [ RunTime:0.0000s ]
+
+[ 2017-08-13T17:23:33+08:00 ] ::1 /news/index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="changeOrder" [ RunTime:0.0000s ]
+
+[ 2017-08-13T17:25:03+08:00 ] ::1 /news/index.php/Admin/Category/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Category" AND action_name="del" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: DELETE FROM `category` WHERE ( cate_id = 1 ) [ RunTime:0.2140s ]
+
+[ 2017-08-13T17:29:20+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/210
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=210 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=210 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T17:29:38+08:00 ] ::1 /news/index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="News" AND action_name="changeOrder" [ RunTime:0.0010s ]
+
+[ 2017-08-13T17:32:16+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+
+[ 2017-08-13T17:32:40+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+
+[ 2017-08-13T17:33:24+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+
+[ 2017-08-13T17:33:59+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+
+[ 2017-08-13T18:04:13+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:04:51+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:05:02+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:11:26+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:14:08+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:21:04+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:21:55+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0000s ]
+
+[ 2017-08-13T18:25:37+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:29:37+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+
+[ 2017-08-13T18:31:51+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+
+[ 2017-08-13T18:32:05+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=170 ) [ RunTime:0.1540s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0020s ]
+
+[ 2017-08-13T18:33:57+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:35:41+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=170 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=170 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:36:23+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+
+[ 2017-08-13T18:38:15+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '170' at line 1
+ [ SQL语句 ] : 170
+
+[ 2017-08-13T18:38:53+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: update news set status='2',verifier='root' where id=170 [ RunTime:0.0010s ]
+
+[ 2017-08-13T18:40:24+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/170
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_fail" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: update news set status='2',verifier='root' where id=170 [ RunTime:0.0010s ]
+
+[ 2017-08-13T19:07:20+08:00 ] ::1 /news/index.php/Admin/Local/local_list/id/4.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'del_flag=0' at line 1
+ [ SQL语句 ] :  SELECT news.* ,local.local_name FROM `news`  inner JOIN local on news.local_id=local.local_id WHERE  role_id=4AND del_flag=0 
+
+[ 2017-08-13T19:08:20+08:00 ] ::1 /news/index.php/Admin/Local/local_list/id/4.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'del_flag=0     and local_id is not null' at line 1
+ [ SQL语句 ] :  SELECT news.* ,local.local_name FROM `news`  inner JOIN local on news.local_id=local.local_id WHERE  role_id=4and del_flag=0     and local_id is not null 
+
+[ 2017-08-13T19:08:30+08:00 ] ::1 /news/index.php/Admin/Local/local_list/id/4.html
+ERR: 1052:Column 'local_id' in where clause is ambiguous
+ [ SQL语句 ] :  SELECT news.* ,local.local_name FROM `news`  inner JOIN local on news.local_id=local.local_id WHERE  role_id=4 and del_flag=0     and local_id is not null 
+
+[ 2017-08-13T19:37:02+08:00 ] ::1 /news/index.php/Admin/Lmsg/submit_fail/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Lmsg" AND action_name="submit_fail" [ RunTime:0.0000s ]
+
+[ 2017-08-13T19:44:57+08:00 ] ::1 /news/index.php/Admin/Lmsg/submit_fail/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Lmsg" AND action_name="submit_fail" [ RunTime:0.0000s ]
+
+[ 2017-08-13T19:46:38+08:00 ] ::1 /news/index.php/Admin/Lmsg/submit_fail/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Lmsg" AND action_name="submit_fail" [ RunTime:0.0000s ]
+
+[ 2017-08-13T19:49:14+08:00 ] ::1 /news/index.php/Admin/Lmsg/submit_fail/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Lmsg" AND action_name="submit_fail" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leave_msg` [ RunTime:0.0040s ]
+SQL: UPDATE `leave_msg` SET `status`='2' WHERE ( id=15 ) [ RunTime:0.0020s ]
+
+[ 2017-08-13T20:03:21+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/212
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=212 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=212 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T20:09:29+08:00 ] ::1 /news/index.php/Admin/News/news_add.html
+ERR: 1062:Duplicate entry '21' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `news_cate` (`news_id`,`cate_id`) VALUES ('213','21')
+
+[ 2017-08-13T20:12:05+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/214
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=214 ) [ RunTime:0.0000s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=214 ) [ RunTime:0.0000s ]
+
+[ 2017-08-13T20:31:26+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/213
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=213 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=213 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T21:08:32+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/215
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=215 ) [ RunTime:0.2690s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=215 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T21:08:38+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/216
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=216 ) [ RunTime:0.0270s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=216 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T21:08:43+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/217
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=217 ) [ RunTime:0.0940s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=217 ) [ RunTime:0.0000s ]
+
+[ 2017-08-13T21:10:33+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/222
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=222 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=222 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T21:10:37+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/218
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=218 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=218 ) [ RunTime:0.0020s ]
+
+[ 2017-08-13T21:10:43+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=221 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=221 ) [ RunTime:0.0010s ]
+
+[ 2017-08-13T21:10:49+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/220
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Local" AND action_name="submit_success" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=220 ) [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=220 ) [ RunTime:0.0010s ]
+

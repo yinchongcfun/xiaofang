@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"/>
+<head>
+    <title>周口市公安消防支队</title>
+    <link rel="stylesheet" type="text/css" href="__HOME_URL__/css/index.css" />
+
+</head>
+
+<body >
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+
+    <!--标语开始-->
+    <div class="biaoyu">
+        <img src="__HOME_URL__/imgs/biaoyu.jpg"/>
+    </div>
+    <!--标语结束-->
+    <!--公告开始-->
+    <div class="gonggao">
+  <div class="gonggao_left">
+      <img src="__HOME_URL__/imgs/gonggao.gif"/>
+  </div>
+        <div class="gonggao_right"  >
+            <div class="sjtp"><img src="__HOME_URL__/imgs/zhongbiao.png"/></div>
+            <div id="showtime">2017-3-4</div>
+        </div>
+    </div>
+    <!--公告结束-->
+</div>
+<!--头部结束-->
+<!--主题内容开始-->
+<div class="content">
+    <!--左边内容开始-->
+<div class="content_left">
+<div  class="nav_input">
+    <img src="__HOME_URL__/images2015/zhyw.gif"/>
+    <form  class="ipt" action="{:U('Search/search')}" method="post">
+        用户 <input type="text" name="firstname">
+        密码 <input type="text" name="lastname">
+        <button  class="bt">登录</button>
+        <input class="ip1" type="text" name="title"  placeholder="请输入关键字">
+        <button  class="bt" type="submit">搜索</button>
+    </form>
+    <div  style="float: right;border: 0px solid  red;position: absolute;right: 10px;top: 10px">
+        <a  href="{:U('Search/search')}" style="color: #004c95;font-weight: bold;" >高级搜索</a></div>
+</div>
+    <div class="content_left_toutiao">
+      <div class="xinwentt">
+          <img src="__HOME_URL__/imgs/xwtt.png">
+      </div>
+        <div class="xinennr">
+            <div class="h2ziti">
+                <h2><a href="{:U('Detail/detail',array( 'id' => $topInfo1['id'] ))}" style="color:#AA0000">{$topInfo1.title|mb_substr=0,20,'utf-8'}...</a></h2>
+            </div>
+            <div class="newneirong">
+                <volist name="topInfo2" id="vo">
+                    <span><a href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">
+                        {$vo.title|mb_substr=0,20,'utf-8'}...
+                    </a></span>
+                    <span style="color:#AA0000 ">[图]</span>
+                </volist>
+            </div>
+        </div>
+    </div>
+    <!--左边新闻1内容-->
+    <div class="content_left1">
+        <div class="dongtu_buju">
+        <div class="content_left1_left">
+            <ul>
+                <foreach  name="rotaion" item="vo">
+                    <li><a href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}"><img src="__ROOT__{$vo.news_big_img}" alt="图片{$key+1}"/></a></li>
+                </foreach>
+            </ul>
+            <ol>
+                <foreach  name="rotaion" item="vo">
+                    <li class="{$key==0?'current':''}">{$key+1}</li>
+                </foreach>
+            </ol>
+        </div>
+            <div class="dtms">
+                <foreach  name="rotaion" item="vo">
+                    <ul>
+                         <li>  <a href="##">{$vo.title}{$key+1}</a></li>
+                    </ul>
+           </foreach>
+                <style>
+                    .dtms ul li{position: absolute;}
+                </style>
+
+            </div>
+        </div>
+        <div  class="content_left1_right">
+
+            <div class="tzgg_1">
+
+                <div style="float: left;margin-top: 6px"><img src="__HOME_URL__/imgs/xfyw.gif"></div>
+                <div class="gengduo right" style="float: right;margin-top: 5px"><a href="{:U('Newslist/news_list',array('cate_id'=>'7'))}">更多>></a></div>
+               <!--<div class="gengduo right"><a href="{:U('Newslist/news_list',array('cate_id'=>'7'))}">更多>></a></div>-->
+                <div class="clear"></div>
+
+            </div>
+                <div class="xfyw_1">
+                    <ul>
+                        <volist  name="info['7']" offset="0" id="vo" length="8">
+                        <li><span style="float: right">[{:date('m-d',$vo['add_time'])}]</span><img src="__HOME_URL__/imgs/dian.png"/>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}" alt="{$vo.title|mb_substr=0,14,'utf-8'}"
+                               target="_blank">
+                                {$vo.title|mb_substr=0,14,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                            <img src="__HOME_URL__/imgs/new1.gif"/>
+                        </li>
+                        </volist>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <!--左边内容2-->
+    <div class="content_left2">
+        <div class="content_left2_left">
+            <div class="content_left2_left_top">
+                <ul>
+                    <li style="float: left;margin-left: 5px;margin-top: 5px;color:#0075cf;font-weight: bold;font-size: 23px ">支队动态</li>
+                    <li style="float: right;margin-top: 10px"><a href="{:U('Newslist/news_list',array('cate_id'=>'8'))}">更多>></a></li>
+                </ul>
+            </div>
+            <div class="content_left2_left_main">
+                <ul>
+                    <volist  name="info['8']" offset="0" id="vo" length="8">
+                        <li><span class="span_right">[{:date('m-d',$vo['add_time'])}]</span><img src="__HOME_URL__/imgs/dian.png"/>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,16,'utf-8'}...</a>
+                            <img src="__HOME_URL__/imgs/new1.gif"/>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+        <div class="content_left2_right">
+            <div class="content_left2_right_top">
+                <ul>
+                    <li style="float: left;margin-left: 5px;margin-top: 5px;color:#0075cf;font-weight: bold;font-size: 23px">推荐阅读</li>
+                    <li style="float: right;margin-top: 10px"><a href="{:U('Newslist/news_list',array('cate_id'=>'9'))}">更多>></a></li>
+                </ul>
+            </div>
+            <div class="content_left2_right_main">
+                <ul>
+                    <volist  name="info['9']" offset="0" id="vo" length="8">
+                        <li><span class="span_right">[{:date('m-d',$vo['add_time'])}]</span><img src="__HOME_URL__/imgs/dian.png"/>
+                            <a class="a_biaoqian"  href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...
+                                <span style="color:#AA0000 ">[图]</span>
+                            </a><img src="__HOME_URL__/imgs/new1.gif"/>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+        <!--左边内容2结束-->
+
+    <!--左边内容3-->
+    <div class="content_left3">
+        <div class="content_left3_tb"><img src="__HOME_URL__/imgs/slb.gif"/></div>
+        <div class="content_left3_tb"><img src="__HOME_URL__/imgs/zzb.gif"/></div>
+        <div class="content_left3_tb"><img src="__HOME_URL__/imgs/hqb.gif"/></div>
+        <div class="content_left3_tb"><img src="__HOME_URL__/imgs/fhb.gif"/></div>
+        <div class="content_left3_tb"><img src="__HOME_URL__/imgs/zdjw.gif"/></div>
+        <div class="content_left3_tb"><img src="__HOME_URL__/imgs/zhzx.gif"/></div>
+    </div>
+    <script>
+        $(function () {
+            $(".mycontentbiji").hide();
+            $(".mycontent0").show();
+        });
+
+        function change(_index) {
+            $(".mycontentbiji").hide();
+            $(".mycontent" + _index).show();
+//            alert(_index);
+        }
+    </script>
+    <!--左边内容4-->
+    <div class="content_left4">
+        <div class="content_left4_top">
+            <div class="content_left4_gddt" >各地动态</div>
+            <div class="content_left4_mues" style="float: right">
+               <div><img src="__HOME_URL__/images2015/botm_bg.gif"/></div><div class="content_left4_mues_a"><a onmouseover="change(0)" href="##">综合信息</a></div>
+               <div><img src="__HOME_URL__/images2015/botm_bg.gif"/></div><div class="content_left4_mues_a"><a onmouseover="change(1)" href="##">司令部工作</a></div>
+               <div><img src="__HOME_URL__/images2015/botm_bg.gif"/></div><div class="content_left4_mues_a"><a onmouseover="change(2)" href="##">政治工作</a></div>
+               <div><img src="__HOME_URL__/images2015/botm_bg.gif"/></div><div class="content_left4_mues_a"><a onmouseover="change(3)" href="##">后勤工作</a></div>
+               <div><img src="__HOME_URL__/images2015/botm_bg.gif"/></div><div class="content_left4_mues_a"><a onmouseover="change(4)" href="##">防火工作</a></div>
+               <div><img src="__HOME_URL__/images2015/botm_bg.gif"/></div><div class="content_left4_mues_a"><a onmouseover="change(5)" href="##">宣传工作</a></div>
+            </div>
+        </div>
+        <!--地方新闻内容开始-->
+
+
+        <!--1综合信息-->
+        <div class="mycontentbiji mycontent0">
+            <div class="content_left4_l">
+                <ul>
+                    <foreach name="localInfo" item="vo" >
+                    <li>
+                        <if condition="$key eq 0">
+                            ①
+                            <elseif condition="$key eq 1"/>②
+                            <elseif condition="$key eq 2"/>③
+                            <else />
+                        </if>
+                        <span style="color: #BB5500;font-weight: bold;">{$vo.local_name}</span>
+                        <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                        <if condition="($key eq 0) OR ($key eq 1) OR ($key eq 2)">
+                            <img src="__HOME_URL__/imgs/new1.gif"/>
+                        </if>
+                    </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--2司令部-->
+        <div class="mycontentbiji mycontent1">
+            <div class="content_left4_l">
+                <ul>
+                    <foreach name="localInfo2" item="vo" >
+                        <li>
+                            <if condition="$key eq 0">
+                                ①
+                                <elseif condition="$key eq 1"/>②
+                                <elseif condition="$key eq 2"/>③
+                                <else />
+                            </if>
+                            <span style="color: #BB5500;font-weight: bold;">{$vo.local_name}：</span>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                            <if condition="($key eq 0) OR ($key eq 1) OR ($key eq 2)">
+                                <img src="__HOME_URL__/imgs/new1.gif"/>
+                            </if>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--3政治-->
+        <div class="mycontentbiji mycontent2">
+            <div class="content_left4_l">
+                <ul>
+                    <foreach name="localInfo3" item="vo" >
+                        <li>
+                            <if condition="$key eq 0">
+                                ①
+                                <elseif condition="$key eq 1"/>②
+                                <elseif condition="$key eq 2"/>③
+                                <else />
+                            </if>
+                            <span style="color: #BB5500;font-weight: bold;">{$vo.local_name}：</span>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                            <if condition="($key eq 0) OR ($key eq 1) OR ($key eq 2)">
+                                <img src="__HOME_URL__/imgs/new1.gif"/>
+                            </if>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--4后勤-->
+        <div class="mycontentbiji mycontent3">
+            <div class="content_left4_l">
+                <ul>
+                    <foreach name="localInfo4" item="vo" >
+                        <li>
+                            <if condition="$key eq 0">
+                                ①
+                                <elseif condition="$key eq 1"/>②
+                                <elseif condition="$key eq 2"/>③
+                                <else />
+                            </if>
+                            <span style="color: #BB5500;font-weight: bold;">{$vo.local_name}：</span>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                            <img src="__HOME_URL__/imgs/new1.gif"/>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--5防火信息-->
+        <div class="mycontentbiji mycontent4">
+            <div class="content_left4_l">
+                <ul>
+                    <foreach name="localInfo5" item="vo" >
+                        <li>
+                            <if condition="$key eq 0">
+                                ①
+                                <elseif condition="$key eq 1"/>②
+                                <elseif condition="$key eq 2"/>③
+                                <else />
+                            </if>
+                            <span style="color: #BB5500;font-weight: bold;">{$vo.local_name}：</span>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                            <if condition="($key eq 0) OR ($key eq 1) OR ($key eq 2)">
+                                <if condition="($key eq 0) OR ($key eq 1) OR ($key eq 2)">
+                                    <img src="__HOME_URL__/imgs/new1.gif"/>
+                                </if>
+                            </if>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--6宣传-->
+        <div class="mycontentbiji mycontent5">
+            <div class="content_left4_l">
+                <ul>
+                    <foreach name="localInfo6" item="vo" >
+                        <li>
+                            <if condition="$key eq 0">
+                                ①
+                                <elseif condition="$key eq 1"/>②
+                                <elseif condition="$key eq 2"/>③
+                                <else />
+                            </if>
+                            <span style="color: #BB5500;font-weight: bold;">{$vo.local_name}：</span>
+                            <a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,12,'utf-8'}...</a><span style="color:#AA0000 ">[图]</span>
+                            <if condition="($key eq 0) OR ($key eq 1) OR ($key eq 2)">
+                                <img src="__HOME_URL__/imgs/new1.gif"/>
+                            </if>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!--地方新闻结束-->
+    <!--左边内容5-->
+    <div class="content_left5">
+        <div class="content_left5_l" >
+            <div class="wrap" >
+                <img src="__HOME_URL__/images2015/tplmbg.gif">
+                <div  class="tplm">
+                    <img src="__HOME_URL__/images2015/tplm_sy01.jpg">
+                </div>
+                <div  class="inner"  id="inner">
+                    <ul>
+                        <volist  name="info['20']" offset="0" id="vo" length="6">
+                            <li><a  href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">
+                                <img src="__ROOT__{$vo.news_big_img}"> </a>
+                            </li>
+                        </volist>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content_left5_r" >
+            <div    class="spdb" >
+                <img src="__HOME_URL__/imgs/tplmbg.gif">
+                <div  class="spdb_img">
+                    <img src="__HOME_URL__/imgs/spdb1.png">
+                </div>
+                <!--极酷阳光播放器/代码开始-->
+                <div  class="sp">
+                        <a  href="{:U('Video/video_list')}" >
+                            <div><img style="width: 198px;height: 122px;" src="__HOME_URL__/imgs/player.jpg"/></div>
+                        </a>
+
+                </div>
+                <!--极酷阳光播放器/代码结束-->
+            </div>
+        </div>
+    </div>
+    <!--左边内容6-->
+    <div class="content_left6">
+        <div class="wrapper1">
+            <ul class="wrapper1_top">
+                <li class="active">媒体报道</li>
+                <li >灭火救援</li>
+            </ul>
+            <div class="wrapper1_news">
+                <div class="main1 selected">
+                    <ul>
+                        <volist  name="info['16']" offset="0" id="vo" length="6">
+                            <li><img src="__HOME_URL__/imgs/dian.png"><a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,18,'utf-8'}...</a> <img  src="__HOME_URL__/imgs/new1.gif"/></li>
+                        </volist>
+                    </ul>
+                </div>
+                <div class="main1">
+                    <ul>
+                        <volist  name="info['17']" offset="0" id="vo" length="6">
+                            <li><img src="__HOME_URL__/imgs/dian.png"><a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,18,'utf-8'}...</a><img  src="__HOME_URL__/imgs/new1.gif"/></li>
+                        </volist>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper2">
+            <ul class="wrapper2_top">
+                <li class="active">调研文章</li>
+                <li >感悟消防</li>
+            </ul>
+            <div class="wrapper2_news">
+                <div class="main2 selected">
+                    <ul>
+                        <volist  name="info['18']" offset="0" id="vo" length="6">
+                            <li><img src="__HOME_URL__/imgs/dian.png"><a class="a_biaoqian" href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,18,'utf-8'}...</a><img  src="__HOME_URL__/imgs/new1.gif"/></li>
+                        </volist>
+                    </ul>
+                </div>
+                <div class="main2">
+                    <ul>
+                        <volist  name="info['19']" offset="0" id="vo" length="6">
+                            <li><img src="__HOME_URL__/imgs/dian.png"><a class="a_biaoqian" href="#{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,18,'utf-8'}...</a><img  src="__HOME_URL__/imgs/new1.gif"/></li>
+                        </volist>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--左边内容结束-->
+    <!--右边内容开始-->
+    <div class="content_right">
+        <!--/*领导讲话*/-->
+        <!--/*领导讲话*/-->
+        <div  class="r1">
+            <div  class="r1_img"> <img  src="__HOME_URL__/images2015/ldjh.jpg"></div>
+            <ul>
+                <foreach name="news_leader" item="vo">
+                    <li><img src="__HOME_URL__/imgs/dian.png"/><a  href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">
+                        {$vo.title|mb_substr=0,12,'utf-8'}...</a>
+                    <li>
+                </foreach>
+
+            </ul>
+        </div>
+
+        <!--      /*值班信息*/-->
+        <table  class="tb">
+            <tr>
+                <td  style="height: 30px;"><a  href="今日值班.html"><img style="border: 0px"src="__HOME_URL__/images2015/zbxx.png"></a></td>
+            </tr>
+            <tr>
+                <td   style="padding: 10px  5px">
+                    <table  class="tb1">
+                        <tr   class="tb1_tr">
+                            <td  class="t1">带班首长：</td>
+                            <td class="t2">李彦军</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">值班领导：</td>
+                            <td class="t2">郭华杰</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">值班长：</td>
+                            <td class="t2">姚殿士</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">指挥长：</td>
+                            <td class="t2">袁作林</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">指挥中心值班：</td>
+                            <td class="t2">宋军利、焦广晴</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">机关值班：</td>
+                            <td class="t2">李涛、李建设</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">通信值班：</td>
+                            <td class="t2">王国栋</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">宣传值班：</td>
+                            <td  class="t2">张步高</td>
+                        </tr>
+                        <tr>
+                            <td  class="t1">车管值班：</td>
+                            <td  class="t2">种银生</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!--/*通知公告*/-->
+        <div  class="r">
+            <div  class="r2">
+                <img src="__HOME_URL__/images2015/hn_tzgg.gif">
+            </div>
+            <ul>
+                <li><img src="__HOME_URL__/imgs/dian.png"/><a  href="#">2017年八一建军节慰..</a></li>
+                <li><img src="__HOME_URL__/imgs/dian.png"/><a  href="#">关于收听收看部消防...</a></li>
+                <li><img src="__HOME_URL__/imgs/dian.png"/><a  href="#">关于收听收看庆“八一”...</a></li>
+                <li><img src="__HOME_URL__/imgs/dian.png"/><a  href="#">关于召开全省公安消防...</a></li>
+            </ul>
+        </div>
+
+        <!--/*专项工作*/-->
+        <div  class="zhuangxianggongzuo">
+            <div  class="zhuangxianggongzuo_img"> <img src="__HOME_URL__/images2015/zxgz.gif"></div>
+            <ul>
+                <foreach name="news_specical_work" item="vo">
+                    <li><img src="__HOME_URL__/imgs/dian.png"/><a  href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">
+                        {$vo.title|mb_substr=0,12,'utf-8'}...</a>
+                    <li>
+                </foreach>
+
+            </ul>
+            <div  class="ysbg"><img src="__HOME_URL__/images2015/zx_bg.gif"></div>
+        </div>
+
+
+        <!--投稿统计-->
+        <div  class="tgtj">
+            <div  class="tgtj_img"> <img src="__HOME_URL__/images2015/tgtj.jpg"></div>
+
+            <table class="tgbg" style="border: 0px">
+                <tr  style="border: 0px">
+                    <td  style="border: 0px" colspan="3" class="tgtd11">
+                        <div class="tg">
+                            <span  >名次</span>
+                            <span  >单位名称</span>
+                            <span >稿件数量</span>
+                        </div>
+                    </td>
+                </tr>
+                <volist name="local_rank" id="vo" offset="0" length="8">
+                <tr class="tgbg_tr">
+                    <td class="tgtd11"><img src="__HOME_URL__/imgs/dian.png"/>{$vo['local_rank']}</td>
+                    <td class="tgtd12">{$vo['local_name']}</td>
+                    <td class="tgtd13">{$vo['news_sum']}</td>
+                </tr>
+                </volist>
+            </table>
+
+        </div>
+
+        <!--网站导航-->
+
+        <div  class="wzdh">
+            <div  class="wzdh1">
+                <img src="__HOME_URL__/images2015/wzdh.gif">
+            </div>
+            <img class="wzdh_img1" src="__HOME_URL__/images2015/hnsgat.gif">
+            <img   class="wzdh_img2" src="__HOME_URL__/images2015/hnsxfzd.gif">
+            <img   class="wzdh_img2" src="__HOME_URL__/images2015/wzdh3.jpg">
+        </div>
+        <!--公共服务-->
+        <div  class="ggfw">
+            <div  class="ggwf_img">
+                <img src="__HOME_URL__/images2015/ggfw.jpg">
+            </div>
+            <table  style="border: 0px">
+                <tr class="ggfw_tr">
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034200system.gif" alt=""/></div><span>电子书籍</span></td>
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034313system.gif" alt=""/></div><span>电子报刊</span></td>
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034341system.gif" alt=""/></div><span>电子地图</span></td>
+                </tr>
+                <tr class="ggfw_tr">
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034418system.gif" alt=""/></div><span>网络电视</span></td>
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034506system.gif" alt=""/></div><span>百科常识</span></td>
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034551system.gif" alt=""/></div><span>新华字典</span></td>
+                </tr>
+                <tr class="ggfw_tr">
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034611system.gif" alt=""/></div><span>万年历</span></td>
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034635system.gif" alt=""/></div><span>软件下载</span></td>
+                    <td class="ggfw_td"><div  class="ggwftd_img"><img src="__HOME_URL__/images2015/20150109034705system.gif" alt=""/></div><span>名人名言</span></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <!--右边内容结束-->
+</div>
+<!--主题内容结束-->
+<!--底部内容开始-->
+<div style="clear: both"></div>
+
+<!--footer引入-->
+<include file="Layout/footer" />
+
+<!--底部内容开始-->
+</body>
+<script  type="text/javascript"  src="__HOME_URL__/js/index.js"> </script>
+<script>
+    $(function(){
+        $(".dtms ul li").hide();
+        $(".dtms ul li").eq(0).show();
+        $(".content_left1_left ol li").mouseenter(function(){
+            $(this).addClass("current").siblings().removeClass("current");
+            $(".content_left1_left ul li").eq($(this).index()).fadeIn("fast").siblings().fadeOut();
+            $(".dtms ul li").hide();
+            $(".dtms ul li").eq($(this).index()).show();
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function(){
+        $(".wrapper1_top>li").mouseenter(function(){
+            //给当前元素添加active这个样式
+            //给当前这个元素的所有兄弟元素移除active这个样式
+            $(this).addClass("active").siblings().removeClass("active");
+            //让下面的div内容，根据上面tab栏菜单展示相应内容
+            var index=$(this).index();
+            $(".main1")
+                    .eq(index).addClass("selected")
+                    .siblings(".main1").removeClass("selected");
+
+        });
+    });
+
+</script>
+<script type="text/javascript">
+    $(function(){
+        $(".wrapper2_top>li").mouseenter(function(){
+            //给当前元素添加active这个样式
+            //给当前这个元素的所有兄弟元素移除active这个样式
+            $(this).addClass("active").siblings().removeClass("active");
+            //让下面的div内容，根据上面tab栏菜单展示相应内容
+            var index=$(this).index();
+            $(".main2")
+                    .eq(index).addClass("selected")
+                    .siblings(".main2").removeClass("selected");
+        });
+    });
+</script>
+<script>
+    window.onload=function(){
+        var oBox=document.getElementById('inner');
+        var oUl=oBox.children[0];
+        var aLi=oUl.children;
+        //复制一份内容
+        oUl.innerHTML+=oUl.innerHTML;
+        oUl.style.width=aLi.length*aLi[0].offsetWidth+'px';
+
+        function Marquee(){
+            var l=oUl.offsetLeft+5;
+            if(l>=0){
+                l=-oUl.offsetWidth/2;
+            }
+            oUl.style.left=l+'px';
+        }
+        var MyMar=setInterval(Marquee,150);
+        oBox.onmouseover=function() {clearInterval(MyMar)};//鼠标移上时清除定时器达到滚动停止的目的
+        oBox.onmouseout=function() {MyMar=setInterval(Marquee,150)};//鼠标移开时重设定时器
+    };
+
+</script>
+        <script>
+            startTime();
+             function startTime()
+              {
+                 var today=new Date();//定义日期对象-->
+                 var yyyy = today.getFullYear();//通过日期对象的getFullYear()方法返回年-->
+                var MM = today.getMonth()+1;//通过日期对象的getMonth()方法返回年-->
+                var dd = today.getDate();//通过日期对象的getDate()方法返回年-->
+                var day; //用于保存星期（getDay()方法得到星期编号）-->
+                if(today.getDay()==0)   day   =   "星期日 "
+                if(today.getDay()==1)   day   =   "星期一 "
+                if(today.getDay()==2)   day   =   "星期二 "
+                if(today.getDay()==3)   day   =   "星期三 "
+               if(today.getDay()==4)   day   =   "星期四 "
+                if(today.getDay()==5)   day   =   "星期五 "
+                if(today.getDay()==6)   day   =   "星期六 "
+               document.getElementById('showtime').innerHTML=yyyy+"-"+MM +"-"+ dd +" "  + day;
+                setTimeout('startTime()',1000);//每一秒中重新加载startTime()方法
+             }
+
+            function checkTime(i)
+            {
+               if (i<10){
+                    i="0" + i;
+                }
+               return i;
+           }
+        </script>
+<script language=Javascript>
+    function time(){
+        //获得显示时间的div
+       var t_div = document.getElementById('showtime');
+        var now=new Date()
+        //替换div内容
+        t_div.innerHTML = now.getFullYear()
+                +"年"+(now.getMonth()+1)+"月"+now.getDate()
+                +"日"+' 星期'+'日一二三四五六'.charAt(now.getDay());
+        //等待一秒钟后调用time方法，由于settimeout在time方法内，所以可以无限调用
+        setTimeout(time,1000);
+    }
+</script>
+</html>

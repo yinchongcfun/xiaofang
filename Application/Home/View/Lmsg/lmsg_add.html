@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>信箱</title>
+    <style>
+        .xinx{width: 1100px;margin: 0  auto;border:0px  solid  red;height: 520px;background-color:rgb(204,232,207);}
+        .xinx_nav{width: 95%;height: 50px;margin:0 auto;border: 0px  solid  #000000;}
+        .xinx form{width: 800px;height: 600px;margin: 0 auto;margin-top:3%;}
+        .xinx1 span{font-size: 20px;}
+    </style>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+</head>
+
+<body style="background-color: rgb(204,232,207)">
+<!--头部开始-->
+<div class="top">
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+   <div  class="xinx">
+       <div class="xinx_nav">
+           <a href="{:U('Lmsg/lmsg_list')}"><img style="float:left"src="__HOME_URL__/spbf/zdxx.gif"></a>
+       </div>
+       <form action="{:U('Lmsg/lmsg_add')}" method="post" enctype="multipart/form-data" id="leave_msg">
+            <h5 style="color: red;margin-left: 35%">请注意：留言提交成功后不能修改！！！</h5>
+            <div class="xinx1">
+                <span>信箱标题：&nbsp;&nbsp;</span>
+                <input style="width: 650px;height: 25px" type="text" name="title" id="title" placeholder="请输入信箱标题">
+            </div><br>
+            <div class="xinx1">
+                <span>信箱请输入：</span>
+                <textarea name="content" id="content" cols="110" rows="20" placeholder="请输入信箱内容......"></textarea>
+            </div>
+            <div class="xinx1" style="margin-left: 30%">
+                <button type="submit" value="提交" style="height: 25px;width: 40px;border-radius: 5px;">提交</button>
+                <button type="reset" value="重置" style="height: 25px;width: 40px;border-radius: 5px;">重置</button>
+                <!--<a href="{:U('Lmsg/lmsg_list')}"><button value="返回" style="height: 25px;width: 40px;border-radius: 5px;">返回</button></a>-->
+            </div>
+       </form>
+   </div>
+   <!--footer引入-->
+   <include file="Layout/footer" />
+<script>
+    $(function () {
+        //表单验证
+        $("#leave_msg").submit(function () {
+            if($("#title").val()==""){
+                alert('请输入留言标题！！');
+               return false;
+            }else if($("#content").val()==""){
+                alert('请输入留言内容！！');
+                return false;
+            }else {
+                return true;
+            }
+        })
+    })
+</script>
+</body>
+</html>

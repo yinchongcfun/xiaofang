@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>信箱详情</title>
+    <style>
+        .xinx{width: 1100px;margin: 0  auto;border:0px  solid  red;
+            height: 500px;
+            background-color:rgb(204,232,207);}
+        .xinx_nav{width: 95%;height: 50px;margin:0 auto;border: 0px  solid  #000000}
+        .xinx  table{width: 80%;height:250px;margin:0 auto;border: 0px  solid  red;font-size: 15px;margin-top: 20px}
+        table, td, tr { border-collapse: collapse; border: 1px solid grey;background-color:rgb(204,232,207); }
+        .xinx  table  .xxtd1{width: 15%;text-align: center}
+        .xinx  table  .xxtd2{width: 85%}
+        .xinx_bottom{width: 80%;height: 30px;margin:0 auto;border: 0px  solid  red}
+        .xinx_bottomr{width: 50%;height: 30px;float:right;border: 0px  solid #000000;line-height: 20px;}
+        .xinx_bottomr  a{color: rgb(204,232,207);font-size: 15px;line-height: 30px;margin-left: 10px}
+        .xinx_bottomr  span{font-size: 15px;margin-left: 10px}
+        .xinx_bottomr  input{width: 16px;height: 12px;background-color: rgb(204,232,207);}
+        .xinx_bottomr  a img{width: 25px;border: 0px}
+    </style>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <link rel="stylesheet" href="__ROOT__/Application/Home/View/Layout/page.css"/>
+</head>
+
+<body style="background-color: rgb(204,232,207)">
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+   <div  class="xinx">
+       <div class="xinx_nav">
+           <img  style="float: left" src="__HOME_URL__/spbf/zdxx.gif">
+           <a href="{:U('Lmsg/lmsg_add')}"><img style="float:right"src="__HOME_URL__/spbf/ly_04.gif"></a>
+       </div>
+       <table>
+           <tr class="xx_tr">
+               <td class="xxtd1">留言标题：</td>
+               <td class="xxtd2">{$lmsg.title}</td>
+           </tr >
+           <tr   style="background-color: #ffffff;" class="xx_tr">
+               <td class="xxtd1">留言内容：</td>
+               <td class="xxtd2">{$lmsg.content}</td>
+           </tr>
+           <tr style="background-color: #ffffff;"class="xx_tr">
+               <td class="xxtd1">回复内容：</td>
+               <td class="xxtd2">{$lmsg.content}</td>
+           </tr>
+           <tr style="background-color: #ffffff;" class="xx_tr">
+               <td class="xxtd1">相关信息：</td>
+               <td class="xxtd2">留言者：{$lmsg.leaver}  来自：  留言时间：{$lmsg.leave_time}  回复人：[{$lmsg.username}] 审批领导：[{$lmsg.username}]</td>
+           </tr>
+       </table>
+   </div>
+   <!--footer引入-->
+   <include file="Layout/footer" />
+
+</body>
+</html>

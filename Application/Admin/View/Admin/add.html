@@ -1,0 +1,148 @@
+<include file="Layout/_meta" />
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" id="form-admin-add" method="POST" action="__SELF__">
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>所在单位：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<tr>
+				<td>
+					<?php foreach ($roleData as $k => $v): ?>
+					<input type="checkbox" name="role_id[]" value="{$v.id}"  in="role_id"/> {$v.role_name}
+					<?php endforeach; ?>
+				</td>
+			</tr>
+		</div>
+	</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>管理员类别：</label>
+			<div class="formControls col-xs-4 col-sm-4"> <span class="select-box">
+				<select name="local_id"  class="select" >
+                    <option value="0">默认本地管理员</option>
+					 <foreach  name="localData" item="vo">
+                     <option value="{$vo.local_id}">├{$vo.local_name}</option>
+                     </foreach>
+				</select>
+				</span>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>电话：</label>
+			<div class="formControls col-xs-8 col-sm-4">
+				<input  type="text" name="phone"  class="input-text" id="phone" value="" />
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>虚拟小号：</label>
+			<div class="formControls col-xs-8 col-sm-4">
+				<input  type="text" class="input-text" name="minphone" value="" />
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>邮箱：</label>
+			<div class="formControls col-xs-8 col-sm-4">
+				<input  type="text"  class="input-text"name="email"  id='email' value="" />
+			</div>
+		</div>
+
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>账号：</label>
+		<div class="formControls col-xs-8 col-sm-4">
+			<input  type="text"  class="input-text"name="username" value="" id="adminName" />
+		</div>
+	</div>
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>密码：</label>
+		<div class="formControls col-xs-8 col-sm-4">
+			<input type="password" class="input-text" size="25" name="password" id="password" />
+		</div>
+	</div>
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>确认密码：</label>
+		<div class="formControls col-xs-8 col-sm-4 skin-minimal">
+			<input type="password" class="input-text" size="25" name="cpassword" id="password2"  />
+		</div>
+	</div>
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>是否启用 1：启用0：禁用</label>
+		<div class="formControls col-xs-8 col-sm-4">
+			<input  type="text" class="input-text" name="is_use" value="1" />
+		</div>
+	</div>
+	<div class="row cl">
+		<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+			<!--<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">-->
+			<input type="submit" class="btn btn-primary radius" value=" 确定 " />
+			<input type="reset" class="btn btn-primary radius" value=" 重置 " />
+		</div>
+	</div>
+	</form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+<include file="Layout/_footer" />
+ <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__PUBLIC_ADMIN__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	/*$("#form-admin-add").validate({
+		rules:{
+			adminName:{
+				required:true,
+			},
+			password:{
+				required:true,
+			},
+			password2:{
+				required:true,
+				equalTo: "#password"
+			},
+			role_id:{
+				required:true,
+			},
+			phone:{
+				required:true,
+				isPhone:true,
+			},
+			email:{
+				required:true,
+				email:true,
+			},
+
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				type: 'post',
+				url: "xxxxxxx" ,
+				success: function(data){
+					layer.msg('添加成功!',{icon:1,time:1000});
+				},
+                error: function(XmlHttpRequest, textStatus, errorThrown){
+					layer.msg('error!',{icon:1,time:1000});
+				}
+			});
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});*/
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>新闻列表</title>
+    <style>
+    </style>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <css href="__ROOT__/Application/Home/View/Layout/news_list.css" />
+
+    <link rel="stylesheet" href="__ROOT__/Application/Home/View/Layout/page.css"/>
+</head>
+
+<body style="background-color: rgb(204,232,207)">
+    <!--头部开始-->
+    <div class="top">
+
+        <!--头部导航栏开始-->
+        <include file="Layout/header"/>
+        <!--头部导航栏结束-->
+    </div>
+    <div class="newsist">
+        <div   class="biaolan">
+            <div  class="biaolan_div">
+                <a href="{:U('Index/index')}" style="color: #3389DE;font-weight: bold">主页</a>>>
+                <a href="#"  style="color: #3389DE;font-weight: bold">{$catemsgAll.cate_name}</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_left">
+                <!--<div  class="content_left_nav">{$catemsgAll.cate_name}</div>-->
+                <div  class="content_left_content" >
+                    <ul>
+                        <foreach name="newsmsgall" item="vo">
+
+                        <li>
+                            <img src="__HOME_URL__/imgs/xinxiang.png"/><a href="{:U('Detail/detail',array('id'=>$vo['id']))}">{$vo.title}</a>
+                            <span>【{:date('m-d',$vo['add_time'])}】</span>
+                        </li>
+
+                        </foreach>
+                    </ul>
+                </div>
+                <span  class="pages" style="margin-right: 20px;float: right"> {$pagelist} </span>
+            </div>
+            <div class="content_right">
+                <div class="box">
+                    <!--频道开始-->
+                    <div class="box_top">
+                        <table width="100%"    border="0" cellspacing="0" cellpadding="0"  valign="middle">
+                            <tr>
+                                <td width="100%"><div class="center_top2_4">栏目导航
+                                </div></td>
+                                <td width="100%">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="box_content">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'8'))}" target='_self'>支队动态</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'17'))}" target='_self'>灭火救援</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'16'))}" target='_self'>媒体报道</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'7'))}" target='_self'>消防要闻</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'22'))}" target='_self'>警营文化</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'18'))}" target='_self'>调研文章</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <!--<tr>-->
+                                <!--<td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>-->
+                                <!--<td height="29"><a href='#' target='_self'>消防视频</a></td>-->
+                                <!--<td width="7">&nbsp;</td>-->
+                            <!--</tr>-->
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'19'))}" target='_self'>感悟消防</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td width="34"><div align="center"><img src="__HOME_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                                <td height="29"><a href="{:U('Newslist/news_list',array('cate_id'=>'23'))}" target='_self'>时政要闻　</a></td>
+                                <td width="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="1" colspan="2" background="__HOME_URL__/imgs/jt.png"></td>
+                            </tr>
+
+                            <tr>
+                                <td height="2"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </TABLE>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer引入-->
+    <include file="Layout/footer" />
+</body>
+</html>
+
+<script language="JavaScript">
+    function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+    {
+        var arVersion = navigator.appVersion.split("MSIE")
+        var version = parseFloat(arVersion[1])
+        if ((version >= 5.5) && (document.body.filters))
+        {
+            for(var j=0; j<document.images.length; j++)
+            {
+                var img = document.images[j]
+                var imgName = img.src.toUpperCase()
+                if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+                {
+                    var imgID = (img.id) ? "id='" + img.id + "' " : ""
+                    var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+                    var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+                    var imgStyle = "display:inline-block;" + img.style.cssText
+                    if (img.align == "left") imgStyle = "float:left;" + imgStyle
+                    if (img.align == "right") imgStyle = "float:right;" + imgStyle
+                    if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+                    var strNewHTML = "<span " + imgID + imgClass + imgTitle
+                            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+                            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+                            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"
+                    img.outerHTML = strNewHTML
+                    j = j-1
+                }
+            }
+        }
+    }
+    window.attachEvent("onload", correctPNG);
+</script>

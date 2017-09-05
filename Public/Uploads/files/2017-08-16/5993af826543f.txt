@@ -1,0 +1,13 @@
+composer命令 创建TP
+	composer create-project topthink/think projectName
+	
+
+
+composer命令 创建laravel
+        composer create-project laravel/laravel projectName  5.2.*
+	
+1.php artisan make:middleware MiddlewareName	
+2.php artisan make:controller controllerName
+3.php artisan make:model modelName
+4.
+

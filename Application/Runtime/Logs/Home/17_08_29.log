@@ -1,0 +1,5 @@
+[ 2017-08-29T15:31:33+08:00 ] ::1 /news/index.php/Home/UserCenter/news_add.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id=admin_role.role_id  AND admin_id=36' at line 2
+ [ SQL语句 ] : SELECT  * FROM admin_role,role
+                                WHERErole.id=admin_role.role_id  AND admin_id=36
+

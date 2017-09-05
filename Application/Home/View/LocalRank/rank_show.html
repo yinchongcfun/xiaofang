@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>排名详情</title>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <style>
+
+        table{margin: 20px  auto;width: 400px;
+            background-color: gainsboro;  }
+        table , tr,  td {border-collapse: collapse; border: 1px solid darkgray;text-align: center}
+        tr{height: 30px}
+        .yi{width: 15%}
+        .er{width: 60%}
+        .san{width: 25%}
+        .er  a{color: blue;text-decoration:underline }
+    </style>
+</head>
+<body >
+    <!--头部开始-->
+    <div class="top">
+
+        <!--头部导航栏开始-->
+        <include file="Layout/header"/>
+        <!--头部导航栏结束-->
+    </div>
+     <table>
+         <tr>
+         <td  colspan="3"  style="text-align: center;background-color: #ffffff">{:date('Y-m',time())}月投稿排名</td>
+         </tr>
+         <tr>
+             <td  class="yi">排名</td>
+             <td class="er">单位</td>
+             <td  class="san">采用数量</td>
+         </tr>
+
+         <foreach name="local_rank" item="vo" >
+             <tr >
+                 <td class="yi">
+                     <if condition="($key eq 0) or ($key eq 1) or ($key eq 2) ">
+                         <i style="color: red"> {$vo['rownum']}</i>
+                         <else />
+                         {$vo['rownum']}
+                     </if>
+                 </td>
+                 <td class="er">{$vo['local_name']}</td>
+                 <td class="san">{$vo['news_sum']}</td>
+             </tr>
+         </foreach>
+
+     </table>
+
+    <!--footer引入-->
+    <include file="Layout/footer" />
+</body>
+</html>

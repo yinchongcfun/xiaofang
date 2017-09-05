@@ -1,0 +1,27 @@
+<include file="Layout/_meta" />
+<body>
+<div class="page-container">
+	<form action="__SELF__" method="post" class="form form-horizontal" id="form-user-add">
+		<p class="text-c"><span class="c-red">*</span>留言回复：</p>
+		<div class="row cl">
+			<div class="formControls text-c col-xs-6 col-sm-6">
+				<textarea name="replay_msg"  cols=60 rows=6></textarea>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-9 col-offset-4">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+                <input class="btn btn-default radius" type="button" type="text" onclick="layer_close()" value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+            </div>
+		</div>
+	</form>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<include file="Layout/_footer" />
+<script type="text/javascript">
+$(function(){
+	
+});
+</script>
+</body>
+</html>

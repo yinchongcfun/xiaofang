@@ -1,0 +1,21 @@
+<include file="Layout/_meta" />
+<body>
+<div class="page-container">
+	<form action="__SELF__" method="post" class="form form-horizontal" id="form-user-add">
+		<p class="text-c"><span class="c-red">*</span>回复内容：</p>
+		<div class="row cl">
+			<div class="formControls text-c col-xs-6 col-sm-6">
+				<textarea name="replay_msg" cols=60 rows=6>{$lmsg['replay_msg']}</textarea>
+			</div>
+		</div>
+	</form>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<include file="Layout/_footer" />
+<script type="text/javascript">
+$(function(){
+	
+});
+</script>
+</body>
+</html>

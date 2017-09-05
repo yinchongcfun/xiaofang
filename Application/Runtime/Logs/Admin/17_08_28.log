@@ -1,0 +1,470 @@
+[ 2017-08-28T11:27:14+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/340
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T11:27:17+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/340
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0017s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=340 ) [ RunTime:0.0728s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=340 ) [ RunTime:0.0353s ]
+
+[ 2017-08-28T11:41:00+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/341
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T11:41:02+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/341
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0016s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=341 ) [ RunTime:0.0600s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=341 ) [ RunTime:0.0332s ]
+
+[ 2017-08-28T11:42:05+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/279
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T11:42:09+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/279
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0017s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=279 ) [ RunTime:0.0315s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=279 ) [ RunTime:0.0504s ]
+
+[ 2017-08-28T11:42:33+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/275
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T11:42:37+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/275
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=275 ) [ RunTime:0.0612s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=275 ) [ RunTime:0.0341s ]
+
+[ 2017-08-28T11:43:35+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/338
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T11:45:24+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/290
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T11:45:26+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/290
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006734s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=290 ) [ RunTime:0.0893s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=290 ) [ RunTime:0.0262s ]
+
+[ 2017-08-28T12:24:01+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/253
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:24:16+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/253
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:24:18+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/253
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=253 ) [ RunTime:0.0482s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=253 ) [ RunTime:0.0337s ]
+
+[ 2017-08-28T12:28:17+08:00 ] ::1 /news/index.php/Admin/Lmsg/set_hits/id/36
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:28:20+08:00 ] ::1 /news/index.php/Admin/Lmsg/submit_success/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `leave_msg` [ RunTime:0.0089s ]
+SQL: UPDATE `leave_msg` SET `status`='1' WHERE ( id=36 ) [ RunTime:0.0554s ]
+
+[ 2017-08-28T12:29:02+08:00 ] ::1 /news/index.php/Admin/Lmsg/set_hits/id/35
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:35:54+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/342
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:36:02+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/342
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003370s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=342 ) [ RunTime:0.0737s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=342 ) [ RunTime:0.0350s ]
+
+[ 2017-08-28T12:52:07+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/343
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:52:10+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/343
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=343 ) [ RunTime:0.0228s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=343 ) [ RunTime:0.0308s ]
+
+[ 2017-08-28T12:57:49+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/346
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T12:57:51+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/346
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0019s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=346 ) [ RunTime:0.0507s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=346 ) [ RunTime:0.0380s ]
+
+[ 2017-08-28T13:05:50+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/350
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:05:53+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/350
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004887s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=350 ) [ RunTime:0.0442s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=350 ) [ RunTime:0.0422s ]
+
+[ 2017-08-28T13:08:43+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/352
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:08:45+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/352
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004289s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0020s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=352 ) [ RunTime:0.0370s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=352 ) [ RunTime:0.0319s ]
+
+[ 2017-08-28T13:17:47+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/354
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:17:49+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/354
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004094s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0016s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=354 ) [ RunTime:0.0750s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=354 ) [ RunTime:0.0349s ]
+
+[ 2017-08-28T13:30:29+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/356
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:30:31+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/356
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0016s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=356 ) [ RunTime:0.0544s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=356 ) [ RunTime:0.0351s ]
+
+[ 2017-08-28T13:33:19+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/357
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:33:21+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/357
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=357 ) [ RunTime:0.0181s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=357 ) [ RunTime:0.0399s ]
+
+[ 2017-08-28T13:35:46+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/358
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:35:48+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/358
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0016s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=358 ) [ RunTime:0.0690s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=358 ) [ RunTime:0.0438s ]
+
+[ 2017-08-28T13:36:00+08:00 ] ::1 /news/index.php/Admin/Local/replay/id/358
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '358'' at line 1
+ [ SQL语句 ] : UPDATE `news` SET  WHERE `id` = '358'
+
+[ 2017-08-28T13:38:03+08:00 ] ::1 /news/index.php/Admin/Local/replay/id/358
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '358'' at line 1
+ [ SQL语句 ] : UPDATE `news` SET  WHERE `id` = '358'
+
+[ 2017-08-28T13:39:03+08:00 ] ::1 /news/index.php/Admin/Local/replay/id/358
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '358'' at line 1
+ [ SQL语句 ] : UPDATE `news` SET  WHERE `id` = '358'
+
+[ 2017-08-28T13:41:06+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/353
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:41:09+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/353
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0080s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=353 ) [ RunTime:0.0275s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=353 ) [ RunTime:0.0317s ]
+
+[ 2017-08-28T13:42:35+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/357
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:43:10+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/357
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:45:20+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/359
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:45:23+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/359
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0016s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=359 ) [ RunTime:0.0619s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=359 ) [ RunTime:0.0770s ]
+
+[ 2017-08-28T13:51:35+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/360
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:51:38+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/360
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=360 ) [ RunTime:0.0521s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=360 ) [ RunTime:0.0224s ]
+
+[ 2017-08-28T13:54:11+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:59:08+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:59:19+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T13:59:51+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:00:20+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:00:33+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/333
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:00:59+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/333
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:01:10+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/333
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:01:13+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:01:18+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/297
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:02:07+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:03:22+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:04:27+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:04:33+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:04:47+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:05:46+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:05:53+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:06:12+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/295
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:07:00+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=295 and cate_id=13 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=295 and cate_id=13 ) [ RunTime:0.0558s ]
+
+[ 2017-08-28T14:07:58+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:08:14+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:09:09+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:17:01+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/362
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T14:17:04+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/362
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=362 ) [ RunTime:0.0941s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=362 ) [ RunTime:0.0223s ]
+
+[ 2017-08-28T16:33:37+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=337 and cate_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=337 and cate_id=1 ) [ RunTime:0.0271s ]
+
+[ 2017-08-28T16:33:46+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=337 and cate_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=337 and cate_id=1 ) [ RunTime:0.0696s ]
+
+[ 2017-08-28T16:33:55+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=337 and cate_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=337 and cate_id=1 ) [ RunTime:0.0808s ]
+
+[ 2017-08-28T16:33:57+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=337 and cate_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=337 and cate_id=1 ) [ RunTime:0.0708s ]
+
+[ 2017-08-28T16:33:59+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=337 and cate_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=337 and cate_id=1 ) [ RunTime:0.0429s ]
+
+[ 2017-08-28T16:34:06+08:00 ] ::1 /news/index.php/Admin/News/ajaxUpdateIstop?id=337&cate_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0012s ]
+SQL: SELECT a.is_top FROM news_cate a INNER JOIN news b on a.news_id=b.id  WHERE ( b.id=337 and a.cate_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.* FROM news_cate a INNER JOIN news b on a.news_id=b.id  WHERE ( a.cate_id=1 )  [ RunTime:0.0009s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `is_top`='0' WHERE ( news_id=333 ) [ RunTime:0.0653s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `is_top`='1' WHERE `news_id` = '337' AND `cate_id` = '1' [ RunTime:0.0308s ]
+
+[ 2017-08-28T16:34:37+08:00 ] ::1 /news/index.php/Admin/News/incOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_cate` WHERE ( news_id=335 and cate_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `sort_id`=sort_id-1 WHERE ( news_id=335 and cate_id=1 ) [ RunTime:0.0545s ]
+
+[ 2017-08-28T16:34:54+08:00 ] ::1 /news/index.php/Admin/News/ajaxUpdateIstop?id=336&cate_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0012s ]
+SQL: SELECT a.is_top FROM news_cate a INNER JOIN news b on a.news_id=b.id  WHERE ( b.id=336 and a.cate_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.* FROM news_cate a INNER JOIN news b on a.news_id=b.id  WHERE ( a.cate_id=1 )  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `is_top`='0' WHERE ( news_id=337 ) [ RunTime:0.2138s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `is_top`='1' WHERE `news_id` = '336' AND `cate_id` = '1' [ RunTime:0.0368s ]
+
+[ 2017-08-28T16:35:45+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/242
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:35:55+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/242
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=242 ) [ RunTime:0.0764s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=242 ) [ RunTime:0.0432s ]
+
+[ 2017-08-28T16:37:53+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/363
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:38:51+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/361
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:38:57+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/361
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=361 ) [ RunTime:0.0784s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=361 ) [ RunTime:0.0326s ]
+
+[ 2017-08-28T16:40:19+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/363
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:40:23+08:00 ] ::1 /news/index.php/Admin/Local/submit_success/id/363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0015s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=363 ) [ RunTime:0.1118s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=363 ) [ RunTime:0.0436s ]
+
+[ 2017-08-28T16:41:07+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/316
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:41:12+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/316
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=316 ) [ RunTime:0.1180s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=316 ) [ RunTime:0.0412s ]
+
+[ 2017-08-28T16:42:16+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/315
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:42:25+08:00 ] ::1 /news/index.php/Admin/Local/submit_fail/id/315
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=315 ) [ RunTime:0.0832s ]
+SQL: UPDATE `news` SET `verifier`='root' WHERE ( id=315 ) [ RunTime:0.0308s ]
+
+[ 2017-08-28T16:54:42+08:00 ] ::1 /news/index.php/Admin/News/ajaxUpdateIstop?id=299&cate_id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0010s ]
+SQL: SELECT a.is_top FROM news_cate a INNER JOIN news b on a.news_id=b.id  WHERE ( b.id=299 and a.cate_id=15 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.* FROM news_cate a INNER JOIN news b on a.news_id=b.id  WHERE ( a.cate_id=15 )  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\Software\wamp\wamp64\www\news\ThinkPHP\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `news_cate` SET `is_top`='1' WHERE `news_id` = '299' AND `cate_id` = '15' [ RunTime:0.0536s ]
+
+[ 2017-08-28T16:55:08+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/80
+ERR: 非法操作:set_hits
+
+[ 2017-08-28T16:55:26+08:00 ] ::1 /news/index.php/Admin/Local/set_hits/id/147
+ERR: 非法操作:set_hits
+

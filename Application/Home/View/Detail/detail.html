@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>{$newsmsg.title}</title>
+    <!--头部导航栏开始-->
+    <!--<include file="Layout/header_footer"/>-->
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <!--头部导航栏结束-->
+    <style>
+        a{text-decoration: none;color: #000000}
+        .newsContaint{width: 1100px;height: 1000px;border: 0px solid red;margin: 0 auto}
+        .news_Top{width: 70%;height: 110px;margin: 0 auto;border: 0px solid brown}
+        .news_Top h2{text-align: center;color: red;line-height: 50px}
+        .news_Details{width: 60%;height: 20px;margin:0 auto;border: 0px solid hotpink}
+        .news_Details span{float: left;margin-left: 40px}
+        .newsMain{width: 100%}
+        .newsMain p{ text-indent:2em;line-height: 30px;font-size: 18px}
+        .newsImgs{float: left;border: 0px solid red;width: 360px;height: 300px;padding-top: 0px}
+        .newsImgs img{width: 360px;height: 300px;}
+    </style>
+
+</head>
+
+<body style="background-color: rgb(204,232,207)">
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+<div class="newsContaint">
+   <div class="news_Top">
+  <h2>{$newsmsg.title}</h2>
+   </div>
+    <div class="news_Details">
+         <span>时间：{:date('m-d',$newsmsg['add_time'])}</span>
+         <span>作者：{$newsmsg.author}</span>
+         <span><a href="#">（浏览次数： {$newsmsg.view}）</a></span>
+    </div>
+    <hr style="border: 1px solid #dcdcdc"/>
+    <div class="newsMain">
+        {$newsmsg.content|htmlspecialchars_decode}
+    </div>
+</div>
+</body>
+<!--footer引入-->
+<include file="Layout/footer" />
+<script>
+    var ajax;
+    if(window.XMLHttpRequest){ ajax = new XMLHttpRequest();}else{ ajax = new ActiveXObject('Microsoft.XMLHTTP');}
+    ajax.open('GET','__CONTROLLER__/set_hits/id/{$_GET[\'id\']}',true);
+    ajax.send();
+</script>
+</html>

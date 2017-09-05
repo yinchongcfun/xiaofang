@@ -1,0 +1,226 @@
+<include file="Index/_header" />
+<!--header头部开始-->
+<!--header头部结束-->
+<div class="nav">
+    <div  class="nav_menus">
+        <div class="nav_buju">
+            <ul>
+                <li><a href="{:U('Index/index')}">首页</a></li>
+                <foreach name="catemsg" item="vo">
+                    <li><a href="{:U('Newslist/lst',array('cate_id'=>$vo['cate_id']))}">{$vo.cate_name}</a></li>
+                </foreach>
+                <li><a href="{:U('File/file_list')}">下载中心</a></li>
+                <li><a href="#">数据传输</a></li>
+                <li><a href="#">办公系统</a></li>
+                <li><a href="#">在线投稿</a></li>
+                <li><a href="#">搜索引擎</a></li>
+                <li><a href="#">在线投稿</a></li>
+                <li><a href="#">怀念旧版</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="newsist">
+<div   class="biaolan">
+    <div  class="biaolan_div">
+        <a href="{:U('Index/index')}" style="color: #3389DE;font-weight: bold">主页</a>>>
+        <a href="#"  style="color: #3389DE;font-weight: bold">{$catemsgAll.cate_name}</a>
+    </div>
+
+</div>
+<div class="content">
+      <div class="content_left">
+          <div  class="content_left_nav">{$catemsgAll.cate_name}</div>
+          <div  class="content_left_content" >
+              <ul>
+                  <foreach name="newsmsgall" item="vo">
+                      <if condition="$vo.cate_id eq 21">
+                        <div style="width: 32%;list-style-type: none;  display:inline-block;  text-align: center; ">{$vo.title|mb_substr=0,12,'utf-8'}...{$vo.content|htmlspecialchars_decode}</div>
+                          <else />
+                          <if condition="$vo.cate_id eq 20">
+                           <li style="width: 32%;list-style-type: none;  display:inline-block;  text-align: center; "><a href="{:U('Detail/detail',array('id'=>$vo['id']))}"><img style="height: 150px;width: 180px" src="{$vo.news_big_img}"/><p>{$vo.title|mb_substr=0,12,'utf-8'}</p></a></li>
+                              <else />
+                          <li><img src="__Home_URL__/imgs/xinxiang.png"/><a href="{:U('Detail/detail',array('id'=>$vo['id']))}">{$vo.title}</a><span>【{:date('m-d',$vo['add_time'])}】</span></li>
+                      </if>
+                      </if>
+                  </foreach>
+              </ul>
+          </div>
+      </div>
+      <div class="content_right">
+          <div class="sousuokuang">
+              <form method="get" id="searchform" action="https://www.baidu.com/">
+                  <fieldset class="search">
+                      <input type="text" class="box" name="s" id="s" class="inputText" placeholder="搜索" >
+                      <button class="btn" title="search"> 搜索</button>
+                  </fieldset>
+              </form>
+          </div>
+          <div class="box">
+              <!--频道开始-->
+              <div class="box_top">
+                  <table width="100%"    border="0" cellspacing="0" cellpadding="0"  valign="middle">
+                      <tr>
+                          <td width="100%"><div class="center_top2_4">栏目导航
+                          </div></td>
+                          <td width="100%">&nbsp;</td>
+                      </tr>
+                  </table>
+              </div>
+              <div class="box_content">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'8'))}" target='_self'>支队动态</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'17'))}" target='_self'>灭火救援</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'16'))}" target='_self'>媒体报道</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'7'))}" target='_self'>消防要闻</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'22'))}" target='_self'>警营文化</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'18'))}" target='_self'>调研文章</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href='#' target='_self'>消防视频</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'19'))}" target='_self'>感悟消防</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+
+                      <tr>
+                          <td width="34"><div align="center"><img src="__Home_URL__/imgs/jt.png" width="8" height="14" /></div></td>
+                          <td height="29"><a href="{:U('Newslist/lst',array('cate_id'=>'23'))}" target='_self'>时政要闻　</a></td>
+                          <td width="7">&nbsp;</td>
+                      </tr>
+                      <tr>
+                          <td height="1" colspan="2" background="__Home_URL__/imgs/jt.png"></td>
+                      </tr>
+
+                      <tr>
+                          <td height="2"></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+                  </TABLE>
+
+              </div>
+          </div>
+      </div>
+</div>
+</div>
+
+<div class="bottom">
+    <!--底部开始-->
+    <div class="zi">
+        版权所有：周口市消防支队 All Rights Reserved @ 周口消防网
+        <br/>
+        未经周口消防网书面特别授权，请勿转载或建立镜像
+        <br/>
+        违者依法追究相关法律责任
+    </div>
+    <!--底部结束-->
+</div>
+</body>
+</html>

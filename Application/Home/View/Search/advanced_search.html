@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>高级搜索</title>
+   <style>
+     .sscontent  ul {list-style: none}
+       .gs{width: 1000px  ;height: 750px;margin: 0 auto;}
+       .gjssl{  width: 230px;   height: 400px;float: left;border: 0px solid  red;margin-left: 10px; background-color:rgb(218,231,244);}
+       .gjct{width: 220px;height: 390px;margin: 0 auto;border-radius: 5px;border: 2px solid  darkgray;margin-top: 3px}
+       .gjct img{width: 220px;  height: 36px;}
+       .gjct  form  .bd1{width: 210px;height: 20px;margin-top: 12px;font-size: 15px;margin-left: 10px}
+       .gjct  form  .bd1  input{width: 115px;background-color: rgb(204,232,207);margin-left:3px}
+       .gjct  .bd2 {width: 220px;height: 25px;margin-top: 10px;}
+       .gjct   .bd2 img{float: right;width: 120px;height: 25px}
+       .gjct  form  select{width: 120px;background-color: rgb(204,232,207);margin-left: 3px}
+       .gjss{width: 750px;height: 700px;border:0px solid  #000000;position: relative;float: right}
+       .gjss .bg1,.bg3{width: 100%;height:50px;}
+       .gjss .bg2{width: 100%;height: 680px;margin-top: 0;}
+       .ss{width: 96% ;height:740px;   margin: 0 auto;border: 0px solid  red;position: absolute;top: 30px;left: 16px}
+       .sstu  img{width: 100%;height: 70px}
+     .ss .sscontent{width: 100%}
+       .ss .sscontent  ul  li  img{width:10px ;height : 15px;margin-left: -15px }
+     .ss .sscontent  ul  li{margin-top: 13px}
+     .ss .sscontent  ul  li a{color: #000000;text-decoration: none;margin-left: 10px}
+     .lbrbcenter{width: 100%;height: 30px;border: 1px solid  gainsboro;margin-top: 20px}
+     .lbrbcenter_l{width: 42%;height:30px;border: 0px solid  burlywood;float: left;text-align: center;font-size: 15px;line-height: 30px}
+     .lbrbcenter_r{width: 53%;height: 30px;border: 0px solid  green;float: right}
+     .lbrbcenter_r  a{color: darkgray;font-size: 15px;line-height: 30px;margin-left: 10px;text-decoration: none}
+     .lbrbcenter_r span{font-size: 15px;margin-left: 10px}
+     .lbrbcenter_r input{width: 16px;height: 12px;border: 1px solid  gray}
+     .lbrbcenter_r a img{width: 25px;border: 0px}
+     .bd3{color: #FFF;background-color: #B20000;margin-left:35%;margin-top: 10px;padding: 5px 15px;border-radius: 8px}
+   </style>
+
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+</head>
+<body style="background-color: rgb(204,232,207)">
+
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+<div class="gs">
+<div  class="gjssl">
+    <div class="gjct">
+          <img src="__HOME_URL__/search/gjss1.jpg">
+        <form action="" method="post" >
+            <div class="bd1">
+                <label  >所属部门 : </label>
+                <select  >
+                    <option  selected>---请选择站点---</option>
+                    <option  selected>------------------</option>
+                    <option value="总站">总站</option>
+                    <option value="河南消防宣传网">河南消防宣传网</option>
+                    <option value="河南消防审计工会">河南消防审计工会</option>
+                    <option value="全市夏季消防检查">全市夏季消防检查</option>
+                    <option value="新训之窗">新训之窗</option>
+                    <option value="全省秋冬火灾防御">全省秋冬火灾防御</option>
+                </select>
+            </div>
+            <div class="bd1">
+                <label>所属类别 : </label>
+                <select  >
+                    <option  selected>---请选择稿件---</option>
+                    <option  selected>-------------------</option>
+                    <option value="看书">看书</option>
+                    <option value="旅游">旅游</option>
+                    <option value="运动">运动</option>
+                    <option value="购物">购物</option>
+                </select>
+            </div>
+            <div class="bd1"> 投  &nbsp稿  &nbsp人:&nbsp<input type="text" > </div>
+            <div class="bd1"> 作  &nbsp &nbsp &nbsp 者 :&nbsp<input type="text" > </div>
+            <div class="bd1"> 文章标题：<input type="text" > </div>
+            <div class="bd1"> 文章内容：<input type="text" > </div>
+            <div class="bd1"> 起始时间：<input type="text" value="2016-08-03"> </div>
+            <div class="bd1"> 终止时间：<input type="text"value="2017-08-03" > </div>
+            <div class="bd1"> 时间格式： <span style="font-size: 12px">2015-01-01</span></div>
+            <input type="submit" value="搜索" class="bd3">
+        </form>
+    </div>
+</div>
+<div class="gjss">
+
+       <img class="bg1" src="__HOME_URL__/search/biaoge_top.gif">
+       <img class="bg2" src="__HOME_URL__/search/biaoge_bg.gif">
+       <img class="bg3" src="__HOME_URL__/search/biaoge_botm.gif">
+    <div  class="ss">
+          <div class="sstu">
+              <img src="__HOME_URL__/search/20090106044601system1.gif">.
+          </div>
+        <div  class="sscontent">
+            <ul>
+                <li><img src="__HOME_URL__/search/ssjt.jpg" alt=""/><a href="#">漯河市集中开展党政领导乡镇网格员专题培训</a></li>
+                <li><img src="__HOME_URL__/search/ssjt.jpg" alt=""/><a href="#">濮阳市公安局召开续会迅速贯彻落实公安部、省公安厅“7.26”会议精神</a></li>
+                <li><img src="__HOME_URL__/search/ssjt.jpg" alt=""/><a href="#">新乡支队获嘉大队走进市民中心开展消防安全知识培训</a></li>
+                <li><img src="__HOME_URL__/search/ssjt.jpg" alt=""/><a href="#">濮阳支队印制彩页助力沿街门店治理</a></li>
+                <li><img src="__HOME_URL__/search/ssjt.jpg" alt=""/><a href="#">航空港区开展“百场消防电影进社区”给力夏季消防宣传</a></li>
+            </ul>
+        </div>
+        <div class="lbrbcenter">
+            <div class="lbrbcenter_l">
+                共81条记录  第1页/共9页  10项/页
+            </div>
+            <div class="lbrbcenter_r">
+                <a href="#">首页</a>
+                <a href="#">上一页</a>
+                <a href="#">下一页</a>
+                <a href="#">末页</a>
+                <span>转到 第 <input type="text">  页</span>
+                <a  href="#"><img src="__HOME_URL__/spbf/xw_12.gif"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--footer引入-->
+<include file="Layout/footer" />
+</body>
+</html>

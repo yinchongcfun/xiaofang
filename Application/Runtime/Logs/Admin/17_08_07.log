@@ -1,0 +1,847 @@
+[ 2017-08-07T12:53:47+08:00 ] 127.0.0.1 /index.php/Admin/News/news_list.html
+ERR: 1054:Unknown column 'a.id' in 'group statement'
+ [ SQL语句 ] : SELECT news.*,category.*,`role_name` FROM `news` INNER JOIN  category on news.cate_id=category.cate_id INNER JOIN role on news.role_id=role.id  GROUP BY a.id ORDER BY id DESC 
+
+[ 2017-08-07T15:22:23+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/111
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T15:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/109
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T15:22:32+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/109
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=109 ) [ RunTime:0.0555s ]
+
+[ 2017-08-07T15:23:34+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/116
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:33:00+08:00 ] 127.0.0.1 /index.php/Admin/Local/replay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `news` SET `status`='3' WHERE ( id= )
+
+[ 2017-08-07T16:34:05+08:00 ] 127.0.0.1 /index.php/Admin/Local/replay
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `news` SET `status`='3' WHERE ( id= )
+
+[ 2017-08-07T16:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/146
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:35:27+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/146
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0022s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=146 ) [ RunTime:0.0934s ]
+
+[ 2017-08-07T16:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Local/replay/id/146
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `news` SET `status`='3' WHERE ( id= )
+
+[ 2017-08-07T16:37:19+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/95
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:37:27+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/106
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:37:32+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/106
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:38:06+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/94
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:54:32+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/94
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T16:54:35+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/94
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=94 ) [ RunTime:0.0469s ]
+
+[ 2017-08-07T16:55:02+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/94
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:07:52+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/137
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:07:55+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/137
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=137 ) [ RunTime:0.0270s ]
+
+[ 2017-08-07T17:09:26+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/97
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:09:28+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/97
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=97 ) [ RunTime:0.0356s ]
+
+[ 2017-08-07T17:16:35+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/93
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:16:37+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/93
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=93 ) [ RunTime:0.0634s ]
+
+[ 2017-08-07T17:18:02+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/96
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:18:04+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/96
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=96 ) [ RunTime:0.1869s ]
+
+[ 2017-08-07T17:19:03+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/136
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:19:05+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/136
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=136 ) [ RunTime:0.2198s ]
+
+[ 2017-08-07T17:20:48+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/100
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:20:50+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=100 ) [ RunTime:0.1962s ]
+
+[ 2017-08-07T17:22:33+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/148
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:22:35+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/148
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=148 ) [ RunTime:0.0557s ]
+
+[ 2017-08-07T17:22:41+08:00 ] 127.0.0.1 /index.php/Admin/Local/replay/id/148
+ERR: Think\Model:insert方法不存在！
+
+[ 2017-08-07T17:24:17+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/143
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:24:20+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/143
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=143 ) [ RunTime:0.0920s ]
+
+[ 2017-08-07T17:25:56+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/138
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:26:00+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/138
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=138 ) [ RunTime:0.0426s ]
+
+[ 2017-08-07T17:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/138
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:29:36+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/102
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:29:39+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/102
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=102 ) [ RunTime:0.1970s ]
+
+[ 2017-08-07T17:30:20+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/101
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:30:23+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/101
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=101 ) [ RunTime:0.0638s ]
+
+[ 2017-08-07T17:33:10+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/86
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/86
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=86 ) [ RunTime:0.0796s ]
+
+[ 2017-08-07T17:34:43+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/89
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:34:46+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/89
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0012s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=89 ) [ RunTime:0.2571s ]
+
+[ 2017-08-07T17:36:21+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/87
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:36:24+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/87
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=87 ) [ RunTime:0.0554s ]
+
+[ 2017-08-07T17:37:38+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/88
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:37:40+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=88 ) [ RunTime:0.0300s ]
+
+[ 2017-08-07T17:38:24+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/90
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/90
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=90 ) [ RunTime:0.0440s ]
+
+[ 2017-08-07T17:38:58+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/100
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T17:41:39+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/104
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:24:10+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/85
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:24:14+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_success/id/85
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0013s ]
+SQL: UPDATE `news` SET `status`='1' WHERE ( id=85 ) [ RunTime:0.0412s ]
+
+[ 2017-08-07T18:24:20+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/85
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:24:28+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/103
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/91
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:24:46+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/91
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=91 ) [ RunTime:0.0648s ]
+
+[ 2017-08-07T18:25:04+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/91
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:25:22+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/142
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:25:24+08:00 ] 127.0.0.1 /index.php/Admin/Local/submit_fail/id/142
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `status`='2' WHERE ( id=142 ) [ RunTime:0.0452s ]
+
+[ 2017-08-07T18:25:40+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/91
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:26:02+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/93
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/133
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:33:28+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/137
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:45:40+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/144
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:45:42+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/144
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T18:46:00+08:00 ] 127.0.0.1 /index.php/Admin/Category/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Category" AND action_name="del" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: DELETE FROM `category` WHERE ( cate_id = 33 ) [ RunTime:0.0721s ]
+
+[ 2017-08-07T18:46:02+08:00 ] 127.0.0.1 /index.php/Admin/Category/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Category" AND action_name="del" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: DELETE FROM `category` WHERE ( cate_id = 32 ) [ RunTime:0.0701s ]
+
+[ 2017-08-07T18:46:05+08:00 ] 127.0.0.1 /index.php/Admin/Category/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SELECT COUNT(*) has FROM privilege WHERE module_name="Admin" AND controller_name="Category" AND action_name="del" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: DELETE FROM `category` WHERE ( cate_id = 31 ) [ RunTime:0.0314s ]
+
+[ 2017-08-07T18:49:17+08:00 ] 127.0.0.1 /index.php/Admin/Local/set_hits/id/137
+ERR: 非法操作:set_hits
+
+[ 2017-08-07T19:57:33+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+NOTIC: [2] Creating default object from empty value C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T19:57:39+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+NOTIC: [2] Creating default object from empty value C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:06:35+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+NOTIC: [2] Creating default object from empty value C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:06:44+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+NOTIC: [2] Creating default object from empty value C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:07:25+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+NOTIC: [2] Creating default object from empty value C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:14:46+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:15:28+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:16:09+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:16:14+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:16:18+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:16:23+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/57?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:16:32+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 172 行.
+
+[ 2017-08-07T20:17:00+08:00 ] 127.0.0.1 /index.php/Admin/News/changeorder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:17:36+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:19:27+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004378s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:20:35+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:22:18+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:22:23+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:22:27+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:22:30+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/57?sort_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:24:37+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:25:13+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 175 行.
+
+[ 2017-08-07T20:25:34+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-07T20:26:23+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 174 行.
+
+[ 2017-08-07T20:27:33+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-07T20:30:32+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-07T20:30:37+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-07T20:30:41+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-07T20:31:11+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-07T20:31:52+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55?sort_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-08-07T20:37:49+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-07T20:39:34+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder/id/55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-07T20:41:18+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-07T20:45:22+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 171 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-07T20:49:09+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort_id C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:57:30+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:57:39+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:58:14+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T20:58:22+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 173 行.
+
+[ 2017-08-07T21:24:59+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1052:Column 'admin_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT a.*,GROUP_CONCAT(c.role_name) role_name FROM admin_role a LEFT JOIN  admin_role b ON a.id=b.admin_id LEFT JOIN role c ON b.role_id=c.id  WHERE ( admin_id=38 ) 
+
+[ 2017-08-07T21:25:54+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1052:Column 'admin_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `role_name` FROM admin_role a LEFT JOIN  admin_role b ON a.id=b.admin_id LEFT JOIN role c ON b.role_id=c.id  WHERE ( admin_id=38 ) 
+
+[ 2017-08-07T22:14:33+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1051:Unknown table 'role'
+ [ SQL语句 ] : SELECT role.* FROM admin_role a LEFT JOIN role c ON a.role_id=c.id  WHERE ( admin_id=1 ) 
+
+[ 2017-08-07T22:15:56+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM admin_role a LEFT JOIN role c ON a.role_id=c.id  WHERE ( admin_id=1 )' at line 1
+ [ SQL语句 ] : SELECT role* FROM admin_role a LEFT JOIN role c ON a.role_id=c.id  WHERE ( admin_id=1 ) 
+
+[ 2017-08-07T22:16:10+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1051:Unknown table 'role'
+ [ SQL语句 ] : SELECT role.* FROM admin_role a LEFT JOIN role c ON a.role_id=c.id  WHERE ( admin_id=1 ) 
+
+[ 2017-08-07T22:16:41+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1051:Unknown table 'role'
+ [ SQL语句 ] : SELECT role.*,`role_id` FROM admin_role a LEFT JOIN role c ON a.role_id=c.id  WHERE ( admin_id=1 ) 
+
+[ 2017-08-07T22:17:42+08:00 ] 127.0.0.1 /index.php/Admin/News/news_add.html
+ERR: 1051:Unknown table 'role'
+ [ SQL语句 ] : SELECT role.*,`role_id` FROM admin_role a LEFT JOIN role c ON a.role_id=c.id  WHERE ( admin_id=1 ) 
+
+[ 2017-08-07T22:21:49+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '157' [ RunTime:0.0518s ]
+
+[ 2017-08-07T22:21:52+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '156' [ RunTime:0.0834s ]
+
+[ 2017-08-07T22:21:54+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '155' [ RunTime:0.0341s ]
+
+[ 2017-08-07T22:28:43+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `id` = 158 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 177 行.
+
+[ 2017-08-07T22:32:13+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '161' [ RunTime:0.1194s ]
+
+[ 2017-08-07T22:32:16+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '160' [ RunTime:0.1076s ]
+
+[ 2017-08-07T22:32:18+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '159' [ RunTime:0.0407s ]
+
+[ 2017-08-07T22:32:20+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0009s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '158' [ RunTime:0.0678s ]
+
+[ 2017-08-07T22:32:26+08:00 ] 127.0.0.1 /index.php/Admin/News/newsDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `del_flag`='1' WHERE `id` = '154' [ RunTime:0.0654s ]
+
+[ 2017-08-07T22:32:33+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 147 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 177 行.
+
+[ 2017-08-07T22:32:42+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `id` = 144 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 177 行.
+
+[ 2017-08-07T22:35:00+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Attempt to assign property of non-object C:\AppServ\www\news\Application\Admin\Controller\NewsController.class.php 第 177 行.
+
+[ 2017-08-07T22:42:51+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0008s ]
+SQL: UPDATE `news` SET `sort_id`='23' WHERE `id` = 80 [ RunTime:0.0678s ]
+
+[ 2017-08-07T22:43:55+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `sort_id`='28' WHERE `id` = 80 [ RunTime:0.0504s ]
+
+[ 2017-08-07T22:44:19+08:00 ] 127.0.0.1 /index.php/Admin/News/changeOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\AppServ\www\news\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: UPDATE `news` SET `sort_id`='22' WHERE `id` = 80 [ RunTime:0.0571s ]
+

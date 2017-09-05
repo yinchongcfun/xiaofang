@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,li,dl,dt,dd,h1,h2,h3,h6
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.clear{clear: both}
+body{font-family:"宋体";}
+a{text-decoration:none; color:#000;}
+a.a_biaoqian:link{color: black;text-decoration:none;}
+a.a_biaoqian:visited{color:#000000;text-decoration: underline;}
+a.a_biaoqian:hover{color: #0075cf;text-decoration: underline;}
+img{border: 0px;}
+/*头部*/
+.top{border: 0px solid brown;width:1100px;margin: 0 auto}
+.top_bj{border: 0px solid blue;width: 100%;height: 175px;}
+.top_bj img{width: 100%;height: 153px}
+.top .nav{border: 0px solid red;width: 100%;height: 35px;}
+.top .nav_menus{background-color: #0075cf;width: 100%;height: 35px;margin: 0 auto}
+.top .nav_menus .nav_buju{margin: 0 auto;height: 35px;width:100%}
+.top .nav_menus li{float: left;}
+.top .nav_menus li a{color: #fff;font-weight:bold;text-align: center;line-height: 35px;font-size: 16px;margin-left:17px}
+.top .biaoyu{width: 100%;}
+.top .biaoyu img{width: 100%;height: 60px;}
+.top .gonggao{border: 0px solid greenyellow;width: 100%;height:35px;border-bottom: 3px solid #0075cf}
+.gonggao .gonggao_left{border: 0px solid deeppink;float: left;margin-top: 6px}
+.gonggao .gonggao_right{border: 0px solid cyan;width: 25%;float: right;height: 35px;}
+.gonggao_right .sjtp{float: left}
+.gonggao_right img{width: 30px;height: 30px}
+ #showtime{color:#0075cf;font-weight: bold;float:right;margin-top: 5px; width: 150px;height: 30px}
+
+
+/*主题内容*/
+.content{border: 0px solid red;width: 1100px;margin: 0 auto;height: 1550px}
+/*左边*/
+.content_left{border: 0px solid yellow;width: 73%;float: left;height: 1550px;}
+.content_left_top{border: 0px solid yellow;width: 100%;height: 40px;}
+.content_left_toutiao{border: 2px solid #dcdcdc;width: 100%;height:80px;margin-top: 10px}
+.nav_input{width: 98%  ;height: 30px;border: 1px solid  gainsboro;padding: 4px 20px 2px 0;margin-top: 10px;position: relative}
+.nav_input  img{width: 120px;height: 30px;float: left;margin-right: 10px}
+.nav_input  .ipt{ line-height: 25px ;margin-left: 20px}
+.nav_input  .ipt  input{margin-left:5px;border: 1px  solid #d1d1d1; background-color: rgb(204,232,207);width: 85px}
+.nav_input  .ipt  .ip1{margin-left:5px;width: 120px}
+.nav_input  .ipt .bt{ height:25px;background-color:  rgb(73,155,229);border-radius:5px;color: #ffffff;border: 0px  solid  #000000 ;margin-left: 10px;}
+.nav_input  .ipt .gjss{ color: #004c95;font-weight: bold;}
+.xinwentt{float: left;margin-left: 5px}
+.xinwentt img{height: 80px}
+.xinennr{border: 0px solid red;float: left;width: 88%;height: 78px;margin-left: 5px}
+.h2ziti{border: 0px solid #000000;text-align: center;margin-top: 10px;line-height: 30px}
+.xinennr .newneirong{border: 0px solid blue;margin-top: 10px}
+.xinennr .newneirong a{    }
+/*左1*/
+.content_left1{height: 330px;width:100%;border:0px solid blueviolet;clear: both;margin-top: 10px}
+/* 动态图片开始  */
+.content_left1 .dongtu_buju{border: 0px solid green;float: left;width: 50%; height: 330px;}
+.content_left1_left{width: 100%;border: 0px solid blue;
+    height: 280px;
+    left: 0;
+    top:0;
+    overflow: hidden;
+    position:relative;
+}
+.content_left1_left  ul  li  img{ width: 100%;height: 280px;}
+ol{position: absolute;
+    width: 25%;
+    right:0;
+    bottom:10px ;
+}
+ol li{float: left;
+    text-align: center;
+    cursor: default;
+    background-color: #000000;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+.current{background-color: red}
+/* 动态图片结束  */
+.dtms{border: 0px solid #000000;width: 90%;margin: 0 auto;margin-top: 2px}
+.dtms a{font-weight: bold;line-height: 15px;text-align: center}
+.content_left1_right{height: 330px;width: 49%;border:0px  solid  palevioletred;float: right}
+.tzgg_1{border: 0px solid blue;width: 100%;height: 35px}
+.xfyw_1 li{margin-top: 12px;}
+.xfyw_1 li a{line-height: 20px;font-size: 15px;}
+/* 左2 */
+.content_left2{border: 0px solid lawngreen;width:100%;height:310px;clear: both;}
+.content_left2_left{border: 0px solid olive;width:49%;height:310px;float: left}
+.content_left2_right{border: 0px solid cyan;width:49%;height:310px;float: right}
+.content_left2_left_top , .content_left2_right_top{height: 35px;width: 100%;border: 0px solid #dcdcdc;border-top: 3px solid #0075cf;border-bottom: 2px solid #dcdcdc }
+.content_left2_left_main li , .content_left2_right_main li {border-bottom:1px dashed #dcdcdc;}
+.content_left2_left_main li a, .content_left2_right_main li a{line-height: 20px;font-size: 15px;}
+.content_left2_right_main li{display: block;margin-top: 12px}
+.content_left2_left_main li{ display: block;margin-top: 12px}
+/*.content_left2_left_main  img, .content_left2_right_main img{width: 15px;height: 15px;margin-top: 5px}*/
+.content_left2_left_main .span_right , .content_left2_right_main .span_right{float: right}
+/*左三*/
+.content_left3{border: 0px solid lightsalmon;width: 100%;height: 40px}
+.content_left3 .content_left3_tb{float: left;margin-left: 20px}
+/*左四*/
+.content_left4{border: 0px solid cyan;width: 100%;height: 265px}
+.content_left4_top{width: 100%;height: 35px;border-bottom: 1px solid #dcdcdc}
+.content_left4_gddt{float: left;color: #0075cf;font-size: 25px;line-height: 35px;font-weight: bold}
+.content_left4_mues div{float: left;margin-left: 6px}
+.content_left4_mues a{line-height:30px;color:#0075cf;font-size: 18px }
+.content_left4_mues img{width: 2px;height: 16px;margin-top: 6px}
+
+/*.content_left4_l, .content_left4_r{width: 49%;float: left;border: 0px solid brown;height: 225px;font-size: 15px;}*/
+/*.content_left4_l li, .content_left4_r li{margin-top: 10px}*/
+
+.content_left4_l, .content_left4_r{width: 100%;float: left;border: 0px solid brown;height: 225px;font-size: 15px;}
+.content_left4_l li, .content_left4_r li{margin-top: 10px; float:left; width:49%}
+
+.content_left4_r{width: 49%;float: right;border: 0px solid fuchsia;height: 225px}
+/*左五*/
+.content_left5{border: 0px solid deeppink;width: 100%;height: 170px}
+.content_left5_l{width: 70%;float: left}
+.wrap{width: 100%;height: 164px;position:relative;border-radius: 5px; z-index: 999999}
+.wrap  img{width: 100%;height: 164px;}
+.wrap  .tplm{width:25px;height: 50px;position: absolute;left: 0px;top: 20px}
+.wrap  .tplm  img{width: 25px;height:110px}
+.inner{width: 93%;height: 120px;position: absolute;right: 10px;top: 14px;border-radius: 5px;overflow:hidden;}
+#inner ul{ position:absolute; left:0; top:0;}
+#inner ul li{ width:160px; height:120px; float:left; padding:5px;}
+#inner ul li img{width:160px; height:110px; }
+.content_left5_r{width: 29%;float: right;height: 164px;}
+.spdb{width:100%;border: 0px solid  red;position: relative;}
+.spdb img{width:98%;height: 160px;z-index: -1;}
+.spdb_img{width:25px;height: 50px;position: absolute;left: 0px;top: 5px}
+.spdb_img img{width: 25px;height:140px}
+.spdb  .sp{position: absolute;right: 12px;top: 10px}
+/*左六*/
+.content_left6{border: 0px solid red;width:100%;height:300px;clear: both;margin-bottom: 45px;}
+.wrapper1{width:49%; height: 300px; float: left;border:0px solid pink}
+.wrapper2{width:49%; height: 300px; float: right;border:0px solid #000000}
+.wrapper1 a, .wrapper2 a{line-height: 20px;font-size: 15px;}
+.wrapper1_top ,.wrapper2_top{ border:1px solid #ddd; border-bottom: 0px; height: 36px; width: 160px;}
+.wrapper1_top li , .wrapper2_top li{ position: relative; float: left; width: 80px; height: 34px; line-height: 34px; text-align: center; cursor: pointer;
+    color: #ffffff;font-weight: bold;border-radius: 5%; background-color: dimgray }
+
+   /*background-color: grey;*/
+
+.wrapper1_news , .wrapper2_news{ width:100%;border-top: 3px solid #0173cb;height: 255px}
+.wrapper1_news .main1 , .wrapper2_news .main2{float: left;display: none;width:100%;height: 255px}
+.wrapper1_news .main1.selected , .wrapper2_news .main2.selected{display: block;width: 100%;height:100%}
+.wrapper1_top li.active , .wrapper2_top li.active{  border-bottom: 0;background-color:#0173cb;}/*background-color:#0173cb;*/
+.wrapper1_news li{ display: block;margin-top: 17px;}
+
+.wrapper1_news li a{margin-left: 16px;}
+.wrapper2_news li{display: block;margin-top: 17px;}
+.wrapper2_news li a{margin-left: 16px;}
+/*右边*/
+.content_right{border: 0px solid palevioletred;width: 25%;float:right;height: 1550px }
+/*领导讲话*/
+li{list-style: none}
+a{color: #000000;text-decoration: none}
+.r1{border: 2px  solid  gainsboro ;width: 100% ;height: 100px;}
+.r1 ul{padding: 5px}
+.r1  ul  li{margin-top: 5px}
+.r1_img{width: 100%;height: 25px;}
+.r1_img  img{width: 100%; height: 25px;}
+/*值班信息*/
+table{border-collapse: collapse;width: 100% ;margin-top: 5px}
+table, td, tr {  border: 1px solid gainsboro; }
+.t1{text-align: right}
+/*通知公告*/
+.r{border: 2px  solid  gainsboro ;width: 100% ;height: 160px;margin-top: 10px}
+.r  ul{padding: 5px}
+.r  ul  li{margin-top: 5px}
+.r2{width: 310px ;height: 30px;}
+.r2  img{width: 90%;height: 30px}
+
+/*专项工作*/
+.zhuangxianggongzuo{border: 2px  solid  gainsboro ;width: 100% ;height: 260px;margin-top: 10px; position: relative }
+.zhuangxianggongzuo_img {width: 100%;height: 30px;}
+.zhuangxianggongzuo_img  img{width: 100%;height:30px;}
+.zhuangxianggongzuo ul{padding: 5px}
+.zhuangxianggongzuo  ul  li{margin-bottom: 5px}
+.zhuangxianggongzuo  li  a{margin-left: 10px}
+.ysbg{position: absolute;right: 10px;bottom: 0px;}
+.ysbg img{
+    width: 110px;
+    height:70px;}
+/*统计投稿*/
+
+.tgtj{border: 2px  solid  gainsboro ;width: 100% ;height: 320px;margin-top: 10px;}
+.tgtj_img{width: 100%;height: 30px;}
+.tgtj_img  img{width: 100%;height: 30px;}
+.tgtj .tg{ width: 85%;margin-left: 20px;  background-color: #e0ecff;padding: 4px;margin-top: 10px}
+.tgtj  .tg span{margin-right: 10px;  font-size: 15px;}
+.tgtj  .tgbg  {width:85% ;margin-left: 10px}
+.tgtj  .tgbg .tgbg_tr{height: 28px}
+.tgtj  .tgbg .tgbg_tr, .tgtd11,.tgtd12,.tgtd13{border: 0px;}
+.tgtj  .tgbg .tgbg_tr .tgtd11{width:18%;text-align: center;}
+.tgtj  .tgbg .tgbg_tr .tgtd12{width:40%;text-align: right}
+.tgtj  .tgbg .tgbg_tr .tgtd13{text-align: center}
+/*网站导航*/
+.wzdh{border: 2px  solid  gainsboro ;width: 100% ;height:150px;margin-top: 10px}
+.wzdh1{width: 100% ;height: 30px; border-bottom: 1px  solid gainsboro;margin-bottom: 10px}
+.wzdh1 img{width: 35% ;height: 30px;}
+.wzdh .wzdh_img1{width: 100%;height: 30px;}
+.wzdh .wzdh_img2{width: 100%;height: 30px;}
+.wzdh .wzdh_img2{width: 100%;height: 30px;}
+
+/*公共服务*/
+.ggfw{border: 2px  solid  gainsboro ;width: 100% ;height: 220px;margin-top: 20px}
+.ggwf_img{width: 100% ;height: 30px; border-bottom: 1px  solid gainsboro;margin-bottom: 10px}
+.ggwf_img  img{width: 98%}
+.ggfw  table{margin: 0 auto}
+.ggfw .ggfw_tr, .ggfw .ggfw_td{border: 0px;}
+.ggfw  .ggfw_tr .ggwftd_img{width: 100%;}
+.ggfw  .ggfw_tr .ggfw_td  img{ width: 40px; height:25px;margin-left:20px;padding: 1px}
+.ggfw  .ggfw_tr .ggfw_td  span{text-align: center;margin-left: 10px}
+/*底部*/
+.bottom{width: 1100px;background-color: #0075cf;margin: 0 auto;height: 100px}
+.zi{border:0px solid red ;text-align: center;line-height: 20px;font-size: 13px;color: #ffffff;padding-top: 30px}

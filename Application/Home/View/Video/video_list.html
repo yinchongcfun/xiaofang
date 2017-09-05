@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>视频点播列表</title>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+    <style>
+        .newsContaint{width: 1100px;height: 700px;border: 0px solid red;margin: 0 auto}
+        .content_left{ width:100%;height: auto;border:1px  solid  gainsboro; margin: 5px;float: left;}
+        .content_left_nav{ width:100%; height:25px;color:#3389DE;font-weight: bold;height: 25px;  padding: 5px }
+        .content_left_content {width: 100%; border-bottom:1px dashed  darkgrey;}
+        .content_left_content_div{
+            margin:0 auto;
+        }
+    </style>
+    <!--头部开始-->
+</head>
+<body style="background-color: rgb(204,232,207)">
+    <div class="top">
+        <!--头部导航栏开始-->
+        <include file="Layout/header"/>
+        <!--头部导航栏结束-->
+    </div>
+<div class="newsContaint">
+    <div class="content_left">
+        <div  class="content_left_nav">当前位置<span>  >> </span>视频列表<span>  >> </span></div>
+        <div   class="content_left_content" >
+            <div class="content_left_content_div" >
+                <foreach name="newsmsgall" item="vo">
+
+                    <if condition="$vo.cate_id eq 21">
+                        <div style="width: 32%;list-style-type: none;  display:inline-block;  text-align: center; ">
+                            {$vo.title|mb_substr=0,12,'utf-8'}...{$vo.content|htmlspecialchars_decode}
+                        </div>
+                    </if>
+                </foreach>
+            </div>
+
+
+            <br>
+            <span  style="margin-right: 20px;float: right"> {$pagelist} </span>
+        </div>
+    </div>
+</div>
+
+
+<!--footer引入-->
+<include file="Layout/footer" />
+
+</body>
+</html>

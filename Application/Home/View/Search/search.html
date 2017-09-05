@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>文章搜索</title>
+    <style>
+
+
+        ul {list-style: none}
+        .ws{width: 1100px  ;height: 750px;margin: 0 auto;margin-bottom: 100px}
+        .wzssl{  width: 230px;   height: 550px;float: left;border: 0px solid  red;margin-left: 0px;}
+        .wzct{width: 220px;height: 250px;margin: 0 auto;border-radius: 5px;border: 2px solid  darkgray;margin-top: 3px;
+            background-color:rgb(218,231,244);position: relative}
+        .wzct img{width: 220px;  height: 36px;}
+        .wzct  .wzbg{width: 100px; height: 30px;position: absolute; top: 0px;left: 40px ;line-height: 30px;
+            font-size: 20px ;font-weight: bold;color: #CCE8CF}
+        .wzct  form  .bd1{width: 200px;height: 20px;margin-top: 12px;font-size: 15px;margin-left: 10px}
+        .wzct  form  .bd1  input{width: 115px;background-color: rgb(204,232,207);margin-left:3px}
+        .wzct  .bd2 {width: 220px;height: 25px;margin-top: 10px;}
+        .wzct   .bd2 img{float: right;width: 120px;height: 25px}
+        .wzct  form  select{width: 120px;background-color: rgb(204,232,207);margin-left: 3px}
+        .wzctbm{width: 220px;height:300px;margin: 0 auto;border: 2px solid  gainsboro;border-radius: 5px;margin-top: 10px}
+        .wzctbm img{width: 100%;height: 50px}
+        .wzctbm  .wzctbm_content{width: 100%;height:230px;border: 1px solid #b0fff7;}
+        .wzctbm  .wzctbm_content  ul{padding-left: 0px}
+        .wzctbm  .wzctbm_content  ul li{margin-top: 5px;line-height: 20px;}
+        .wzctbm  .wzctbm_content  a{ color: #000000;text-decoration: none}
+        .wzss{width: 800px;height: 500px;border:0px solid  #000000;position: relative;float: right}
+        .wzss .bg1,.bg3{width: 100%;height:50px;}
+        .wzss .bg2{width: 100%;height: 450px;margin-top: 0;}
+        .wss{width:97% ;height:500px;   margin: 0 auto;border: 0px solid  red;position: absolute;top: 30px;left: 16px;}
+        .wsstu{position: relative;height: 70px}
+        .wsstu  img{width: 103.2%;height: 70px;margin-left: -16px;}
+        .wsstu  .wsstu_title{  width:150px;height:25px;position: absolute;left: 40px;top: 5px;color: #0065bd; border: 0px solid red;font-size: 18px;font-weight: bold}
+        .wss .wsscontent{width: 100%;margin: 0 auto;}
+        .wss .wsscontent  ul{margin-left: 10px}
+        .wss .wsscontent  ul  li  img{width:10px ;height : 15px;margin-left: -15px; }
+        .wss .wsscontent  ul  li{margin-top: 10px;margin-left: 20px}
+        .wss .wsscontent  ul  li a{color: #000000;text-decoration: none;margin-left: 10px}
+
+        .lbrbcenter{width: inherit;height: 30px;;margin-top: 20px;}
+        .bd3{color: #FFF;background-color: #B20000;margin-left:35%;margin-top: 10px;padding: 5px 15px;border-radius: 8px}
+    </style>
+    <link rel="stylesheet" href="__ROOT__/Application/Home/View/Layout/page.css"/>
+    <css href="__ROOT__/Application/Home/View/Layout/header_footer.css" />
+</head>
+<body style="background-color: rgb(204,232,207)">
+<!--头部开始-->
+<div class="top">
+
+    <!--头部导航栏开始-->
+    <include file="Layout/header"/>
+    <!--头部导航栏结束-->
+</div>
+
+<div class="ws">
+    <div  class="wzssl">
+        <div class="wzct">
+            <img src="__HOME_URL__/search/wzssbg.jpg">
+            <div  class="wzbg">文章搜索</div>
+            <form action="{:U('search')}" method="post" >
+                <div class="bd1"> 文章标题：<input type="text" name="title" value="{$Think.session.zkxf_title}"> </div>
+                <div class="bd1"> 文章内容：<input type="text" name="content" value="{$Think.session.zkxf_content}"> </div>
+                <div class="bd1"> 起始时间：<input type="date" name="begin_time" value="{$Think.session.zkxf_begin_time}"> </div>
+                <div class="bd1"> 终止时间：<input type="date" name="end_time" value="{$Think.session.zkxf_end_time}"> </div>
+                <div class="bd1"> 时间格式：<span style="font-size: 12px">2017/08/08</span></div>
+                <input type="submit" value="搜索" class="bd3">
+            </form>
+        </div>
+        <div  class="wzctbm">
+            <img src="__HOME_URL__/images2015/20150112012447system1.gif">
+            <div class="wzctbm_content">
+                <!--热点文章-->
+                <ul>
+                    <foreach name="hotNews" item="vo">
+                        <li> &nbsp; &nbsp; <a href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,8,'utf-8'}..</a></li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wzss" >
+        <img class="bg1" src="__HOME_URL__/search/biaoge_top.gif">
+        <img class="bg2"src="__HOME_URL__/search/biaoge_bg.gif">
+        <img class="bg3" src="__HOME_URL__/search/biaoge_botm.gif">
+        <div  class="wss">
+            <div class="wsstu">
+                <img src="__HOME_URL__/images2015/biaoge_title.gif">.
+                <div  class="wsstu_title">搜索结果：</div>
+            </div>
+            <div  class="wsscontent">
+                <ul>
+                    <volist  name="newsInfo" id="vo">
+                        <li><img src="__HOME_URL__/search/ssjt.jpg" alt=""/>
+                            <a href="{:U('Detail/detail',array( 'id' => $vo['id'] ))}">{$vo.title|mb_substr=0,25,'utf-8'}...
+                                {:date('Y-m-d',$vo['add_time'])}
+                            </a>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+
+            <div class="lbrbcenter">
+                <span  style="margin-right: 15%;float: right" class="pages" > {$pagelist} </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer引入-->
+<include file="Layout/footer" />
+</body>
+</html>

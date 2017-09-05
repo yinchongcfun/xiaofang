@@ -1,0 +1,341 @@
+
+
+
+<html >
+<head id="ctl00_Head1"><title>
+    _周口市公安消防支队(pt.zhyw.oa_3.0.7_B_b20161102)
+</title>
+    <script type="text/javascript" src="/Scripts/table.js"></script>
+    <script type="text/javascript" src="/Scripts/calendar/lhgcore.js"></script>
+    <script type="text/javascript" src="/Scripts/calendar/lhgcalendar.js"></script>
+    <script type="text/javascript" src="/Scripts/js/WdatePicker.js"></script>
+    <script type="text/javascript" src="/Scripts/ymPrompt/ymPrompt.js"></script>
+    <script type="text/javascript" src="/Scripts/ymPrompt/win.js"></script>
+
+    <script type="text/javascript" src="/Scripts/MaxLenght.js"></script>
+    <script>
+        function auto() {
+
+        }
+        /*新开居中的窗口。参数说明：
+         url-要打开的页面，p-窗口位置（值：c-居中，lt-左上）
+         r-调整大小，sc-是否有滚动条，s-状态栏，w-宽度，h-高度
+         */
+        function NewWin(url, p, r, sc, s, w, h) {
+            var OpenMode = "width=" + w + ",height=" + h + ",resizable=" + r + ",scrollbars=" + sc + ",status=" + s + ",width=" + w + ",height=" + h;
+            switch (p) {
+                case "c":
+                    OpenMode += ",left=" + (screen.width - w) / 2 + ",top=" + (screen.height - h) / 2;
+                    break;
+                case "lt":
+                    OpenMode += ",left=0,top=0";
+                    break;
+            }
+            if (url != "#" && url != "")
+                window.open(url, '', OpenMode);
+        }
+
+        function NewPage(url) {
+            NewWin(url, "c", "yes", "yes", "no", 800, 600)
+        }
+
+        function winopenJSCY(JSID, CYFS, FWXZ,SSDW, SSJG) {
+            var url ='/BGZC/GWCL/LC_CYCY.aspx?JSID=' + JSID + "&CYFS=" + CYFS + "&FWXZ=" + FWXZ + "&SSDW=" + SSDW + "&SSJG=" + SSJG;
+            NewWin(url, "c", "yes", "yes", "no", 600,400)
+        }
+
+    </script>
+    <link id="ctl00_skin" rel="stylesheet" type="text/css" href="../../../../Scripts/ymPrompt/skin/bluebar/ymPrompt.css" />
+    <style>
+        td
+        {
+            font-size: 12px;
+        }
+        .td1
+        {
+            font-size: 14px;
+        }
+        .thetd
+        {
+            line-height: 20px;
+        }
+        .tab1
+        {
+            width: 791px;
+            background-color: White;
+            height:100%;
+
+            /*table样1式return allLength();*/
+
+        }
+
+    </style>
+    <script >
+        function openwin(Url, Title, Width, Height) {
+            winCommon(Url, Title, Width, Height)
+        }
+        function openwin2(url, width, height) {
+            window.open(url, '_blank', 'height=' + height + ',width=' + width + ',status=no,toolbar=no,scrollbars=yes,resizable=yes,');
+        }
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        //表格行选中变色
+        //fuscousALL("名称","奇数行背景","偶数行背景","鼠标经过背景","点击后背景");
+        function fuscousALL(tableID, a, b, c, d) {
+            var tab = document.getElementById(tableID);
+            if (tab == null)
+                return;
+            var tb = tab.getElementsByTagName("tbody");
+            if (tb.length > 1) {
+                var e = a;
+                a = b;
+                b = e;
+            }
+
+            var t = tab.getElementsByTagName("tr");
+            if (t != null) {
+                for (var i = 0; i < t.length; i++) {
+                    t[i].style.backgroundColor = (i % 2 == 0) ? a : b;
+                    //t[i].style.backgroundColor = (t[i].sectionRowIndex % 2 == 0) ? a : b;
+//                    t[i].onclick = function() {
+//                        if (this.x != "1") {
+//                            this.x = "1";
+//                            this.style.backgroundColor = d;
+//                        } else {
+//                            this.x = "0";
+//                            this.style.backgroundColor = (this.sectionRowIndex % 2 == 0) ? a : b;
+//                        }
+//                    }
+                    t[i].onmouseover = function() {
+                        if (this.x != "1") this.style.backgroundColor = c;
+                    }
+                    t[i].onmouseout = function() {
+                        if (this.x != "1") this.style.backgroundColor = (this.sectionRowIndex % 2 == 0) ? a : b; //alert(this.sectionRowIndex);
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <link href="../../../../App_Themes/normal/GRWD.css" type="text/css" rel="stylesheet" /><link href="../../../../App_Themes/normal/Normal.css" type="text/css" rel="stylesheet" /><link href="/WinValidatorFiles/rightpoptip/css/style.css" rel="stylesheet" type="text/css"></link></head>
+<body bottommargin="0" leftmargin="0" topmargin="0" rightmargin="0" style=" text-align:center;"  onload="ChgInputShow()"  >
+<form name="aspnetForm" method="post" action="SWGL_ZBPB_CXLB.aspx" id="aspnetForm" enctype="multipart/form-data" onsubmit="return allLength();">
+    <div>
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+        <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+        <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MjY3MTc2NjQPFgYeCFN0cl9KR0JNBQg0MTAyNzAwMB4IQWxsX1pTRFcFJDQxMDI3MTAxLDQxMTMyNDUwLDQxMTMyNDU0LDQxMUJZVThBLB4ITGFzdFNTRFcFCDQxMDI3MDAwFgJmD2QWAgIBD2QWAgIBD2QWCgIDDxBkEBUEBDIwMTUEMjAxNgQyMDE3BDIwMTgVBAQyMDE1BDIwMTYEMjAxNwQyMDE4FCsDBGdnZ2dkZAIFDxBkEBUMATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyFQwBMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTIUKwMMZ2dnZ2dnZ2dnZ2dnZGQCBw8WAh4EVGV4dAWmATxkaXYgc3R5bGU9J3RleHQtYWxpZ246bGVmdDtkaXNwbGF5OmlubGluZTtmbG9hdDpsZWZ0O2ZvbnQtc2l6ZToxMnB4OyBoZWlnaHQ6MjVweDtjb2xvcjpibHVlO3BhZGRpbmctdG9wOjdweDtwYWRkaW5nLWxlZnQ6N3B4Jz7jgJDlkajlj6PluILlhazlronmtojpmLLmlK/pmJ/jgJE8L2Rpdj5kAgkPZBYCZg9kFggCAQ8QDxYCHgdWaXNpYmxlaGRkFgBkAgMPEA8WCB4UQXBwZW5kRGF0YUJvdW5kSXRlbXNnHg1EYXRhVGV4dEZpZWxkBQRKR0pDHg5EYXRhVmFsdWVGaWVsZAUCSUQeC18hRGF0YUJvdW5kZ2QQFQEb5ZGo5Y+j5biC5YWs5a6J5raI6Ziy5pSv6ZifFQEINDEwMjcwMDAUKwMBZxYBZmQCBQ8QDxYGHwYFBEpHSkMfBwUCSUQfCGdkEBUQFeivt+mAieaLqeS4i+e6p+WNleS9jQ/mspnljZfmtojpmLLnp5EM5bed5rGH5aSn6ZifDOmhueWfjuWkp+mYnwzmsojkuJjlpKfpmJ8M5reu6Ziz5aSn6ZifDOm5v+mCkeWkp+mYnwzlpKrlurflpKfpmJ8M6YO45Z+O5aSn6ZifDOaJtuayn+Wkp+mYnwzopb/ljY7lpKfpmJ8M5ZWG5rC05aSn6ZifEum7hOazm+WMuuW3peS9nOWupBLkuJzmlrDljLrlt6XkvZzlrqQS5byA5Y+R5Yy65bel5L2c5a6kFea4r+WMuua2iOmYsuW3peS9nOWupBUQASMINDEwMjcwNjAINDEwMjcyMDEINDEwMjcyMDIINDEwMjcyMDMINDEwMjcyMDQINDEwMjcyMDUINDEwMjcyMDYINDEwMjcyMDcINDEwMjcyMDgINDEwMjcyMDkINDEwMjcyMTAINDEwMjcyMTEINDExMzIyNDkINDExMzIyNTIINDExQkNRRzUUKwMQZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCBw8QDxYEHwVnHwRoZBAVARktLeivt+mAieaLqeS4i+e6p+WNleS9jS0tFQEBIxQrAwFnFgFmZAIPDxYCHwNlZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUkY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCdG5fU2VhcmNoVD1nkwQxm82ok7SEN9ThuCeUUoE=" />
+    </div>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var theForm = document.forms['aspnetForm'];
+        if (!theForm) {
+            theForm = document.aspnetForm;
+        }
+        function __doPostBack(eventTarget, eventArgument) {
+            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                theForm.__EVENTTARGET.value = eventTarget;
+                theForm.__EVENTARGUMENT.value = eventArgument;
+                theForm.submit();
+            }
+        }
+        //]]>
+    </script>
+
+
+    <script src="/WebResource.axd?d=zdvBBLhu2ys7XLjN85B4TQ16dCxzNyioQdE4bfF3KExeCmnlYVnx0UqFa-9q7IBos5MJCvJbvafcLxS8-xxdN2jwjJc1&amp;t=634244902260000000" type="text/javascript"></script>
+
+
+    <script src="/ScriptResource.axd?d=AmhXZq4wgBFAMi3kpsm1TRzosv6teKSdDlRnYRa8wfEcgaEYsRz7dmEQceo9B2bkZ5AAwafUl9IcvTVKydAm-rbxBKjW0dSYqBOZZyZvhwhTQp8Fd3iwnRgs-p41R9FBE1n0QbBqnCEd8TU30QKxzplRSezlD4DN9TVhf6HH9xZN4UKa0&amp;t=fffffffff9d85fa6" type="text/javascript"></script>
+    <script src="/ScriptResource.axd?d=TTvwcfUVNlcPdQBWWRYvOQA_B3sKUMwjKADlv0g6AWbrJ_wl-Hnvab8fzbmDnQa6YF5RB0eYsOtXuEsrQLISFpySky_VbZ2NVcIYw0kZWJoGozpeZJt2Kw6j_lxSRiPJETTE8wNNpLB8jkm_54NYCdMxHaxFadj5j1IQ45ILu7Ydq2rj0&amp;t=fffffffff9d85fa6" type="text/javascript"></script>
+    <input type="hidden" id="ZHYWPT_yz_hidden" value="0" />
+    <div id="MessageDiv"></div>
+
+    <br />
+    <script type="text/javascript">
+        //<![CDATA[
+        Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', document.getElementById('aspnetForm'));
+        Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+        //]]>
+    </script>
+
+    <div class="GridTablesTop">
+        <span class="spl"><strong>值班排班列表</strong></span>    <span class="spr">选择日期：
+ 
+            <select name="ctl00$ContentPlaceHolder1$DDL_Year" id="ctl00_ContentPlaceHolder1_DDL_Year">
+	<option value="2015">2015</option>
+	<option value="2016">2016</option>
+	<option selected="selected" value="2017">2017</option>
+	<option value="2018">2018</option>
+ 
+</select>
+            年
+ 
+            <select name="ctl00$ContentPlaceHolder1$DDL_Month" id="ctl00_ContentPlaceHolder1_DDL_Month">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option selected="selected" value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+ 
+</select>
+            月&nbsp;&nbsp;&nbsp;&nbsp;        </span>
+    </div>
+    <div  style=" text-align:right;height:25px"><div style='text-align:left;display:inline;float:left;font-size:12px; height:25px;color:blue;padding-top:7px;padding-left:7px'>【周口市公安消防支队】</div>
+
+        <span id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+                
+                            <select name="ctl00$ContentPlaceHolder1$DDL_ZhiDui" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$DDL_ZhiDui\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_DDL_ZhiDui" style="height:22px;width:130px;">
+	<option selected="selected" value="41027000">周口市公安消防支队</option>
+ 
+</select>
+                            <select name="ctl00$ContentPlaceHolder1$DDL_DaDui" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$DDL_DaDui\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_DDL_DaDui" style="height:22px;width:130px;height: 22px">
+	<option selected="selected" value="#">请选择下级单位</option>
+	<option value="41027060">沙南消防科</option>
+	<option value="41027201">川汇大队</option>
+	<option value="41027202">项城大队</option>
+	<option value="41027203">沈丘大队</option>
+	<option value="41027204">淮阳大队</option>
+	<option value="41027205">鹿邑大队</option>
+	<option value="41027206">太康大队</option>
+	<option value="41027207">郸城大队</option>
+	<option value="41027208">扶沟大队</option>
+	<option value="41027209">西华大队</option>
+	<option value="41027210">商水大队</option>
+	<option value="41027211">黄泛区工作室</option>
+	<option value="41132249">东新区工作室</option>
+	<option value="41132252">开发区工作室</option>
+	<option value="411BCQG5">港区消防工作室</option>
+ 
+</select>
+                             </span>     <input type="image" name="ctl00$ContentPlaceHolder1$Btn_Search" id="ctl00_ContentPlaceHolder1_Btn_Search" src="../../../../images/zhpt_64.gif" style="width:69px;border-width:0px;" />
+   </div>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <table id="ctl00_ContentPlaceHolder1_Table_ZBPB" class="DAtables" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;color:Black; font-family:宋体-18030; ">
+                    <tr>
+                    <td class="lefts" align="center" rowspan="2" style="background-color:#EFF6FF;"><input type="text" unselectable="on" style="font-weight:bold;border-width:0px;color:#4260A8;background-color:#EFF6FF;width:40px;text-align:center;vertical-align:middle" value='星 期'/></td><td class="spec" align="center" rowspan="2" style="background-color:#EFF6FF;"><input type="text" unselectable="on" style="font-weight:bold;border-width:0px;color:#4260A8;background-color:#EFF6FF;width:40px;text-align:center;vertical-align:middle" value='日 期'/></td><td class="lefts" align="center" rowspan="2" style="background-color:#EFF6FF;width:60px;word-break:keep-all;"><input type="text" unselectable="on" style="font-weight:bold;border-width:0px;color:#4260A8;background-color:#EFF6FF;width:60px;text-align:center;vertical-align:middle" value=' 工作日'/></td><td class="spec" align="center" colspan="1" rowspan="2" style="background-color:#EFF6FF;color:#4260A8;"><strong>值班首长</strong></td><td class="spec" align="center" colspan="1" rowspan="2" style="background-color:#EFF6FF;color:#4260A8;"><strong>值班长</strong></td><td class="spec" align="center" colspan="1" rowspan="2" style="background-color:#EFF6FF;color:#4260A8;"><strong>行政值班</strong></td><td class="spec" align="center" colspan="1" rowspan="2" style="background-color:#EFF6FF;color:#4260A8;"><strong>作战值班</strong></td><td class="spec" align="center" colspan="1" rowspan="2" style="background-color:#EFF6FF;color:#4260A8;"><strong>保障组</strong></td><td class="spec" align="center" colspan="1" rowspan="2" style="background-color:#EFF6FF;color:#4260A8;"><strong>指挥中心专职值班</strong></td>
+                </tr><tr>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期二</td><td class="spec" align="center" style="color:black;">1日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">李华兵&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王焱&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">钱正源&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">史小帅&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期三</td><td class="spec" align="center" style="color:black;">2日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">李华兵&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王焱&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">翟英鑫&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">史小帅&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期四</td><td class="spec" align="center" style="color:black;">3日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">李华兵&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王焱&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">史小帅&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期五</td><td class="spec" align="center" style="color:black;">4日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">李华兵&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王焱&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">燕鹏珂&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">史小帅&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期六</td><td class="spec" align="center" style="color:black;">5日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">李华兵&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王焱&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">冯振南&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">史小帅&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期日</td><td class="spec" align="center" style="color:black;">6日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">李华兵&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王焱&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">史小帅&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期一</td><td class="spec" align="center" style="color:black;">7日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王承恩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期二</td><td class="spec" align="center" style="color:black;">8日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王承恩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期三</td><td class="spec" align="center" style="color:black;">9日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王承恩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期四</td><td class="spec" align="center" style="color:black;">10日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王文浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王承恩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期五</td><td class="spec" align="center" style="color:black;">11日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">翟英鑫&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王承恩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">赵江波&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期六</td><td class="spec" align="center" style="color:black;">12日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王承恩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">赵江波&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期日</td><td class="spec" align="center" style="color:black;">13日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">王劲松&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">杨振凯&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">黄思杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">赵江波&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">何华伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期一</td><td class="spec" align="center" style="color:black;">14日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">赵江波&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期二</td><td class="spec" align="center" style="color:black;">15日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王文浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期三</td><td class="spec" align="center" style="color:black;">16日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">宋长山&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期四</td><td class="spec" align="center" style="color:black;">17日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期五</td><td class="spec" align="center" style="color:black;">18日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">钱正源&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期六</td><td class="spec" align="center" style="color:black;">19日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王文浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期日</td><td class="spec" align="center" style="color:black;">20日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">杜志伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">秦浩&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张敬申&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">郭森森&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期一</td><td class="spec" align="center" style="color:black;">21日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">钱正源&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期二</td><td class="spec" align="center" style="color:black;">22日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">冯振南&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:red;background-color:#EFF6FF;">星期三</td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">23日</td><td class="lefts" align="center" style="color:red;background-color:#EFF6FF;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">宋长山&nbsp;&nbsp;</td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:red;background-color:#EFF6FF;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期四</td><td class="spec" align="center" style="color:black;">24日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张伟&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期五</td><td class="spec" align="center" style="color:black;">25日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">黄思杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期六</td><td class="spec" align="center" style="color:black;">26日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">翟英鑫&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期日</td><td class="spec" align="center" style="color:black;">27日</td><td class="lefts" align="center" style="color:black;width:60px;"></td><td class="spec" align="center" style="color:black;">吕杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">黄思杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李阳&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">王长伟&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期一</td><td class="spec" align="center" style="color:black;">28日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">尹贺&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">黄思杰&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李少康&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期二</td><td class="spec" align="center" style="color:black;">29日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">尹贺&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">付泉&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李少康&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期三</td><td class="spec" align="center" style="color:black;">30日</td><td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td><td class="spec" align="center" style="color:black;">尹贺&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">冯振南&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">李少康&nbsp;&nbsp;</td><td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr><tr>
+                    <td class="lefts" align="center" style="color:black;">星期四</td>
+                    <td class="spec" align="center" style="color:black;">31日</td>
+                    <td class="lefts" align="center" style="color:black;width:60px;"><font color=red>√</font></td>
+                    <td class="spec" align="center" style="color:black;">尹贺&nbsp;&nbsp;</td>
+                    <td class="spec" align="center" style="color:black;">艾中刚&nbsp;&nbsp;</td>
+                    <td class="spec" align="center" style="color:black;">张留举&nbsp;&nbsp;</td>
+                    <td class="spec" align="center" style="color:black;">许继星&nbsp;&nbsp;</td>
+                    <td class="spec" align="center" style="color:black;">李少康&nbsp;&nbsp;</td>
+                    <td class="spec" align="center" style="color:black;">张关松&nbsp;&nbsp;</td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <span></span>
+
+    <div>
+
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWJQKTsYvmCAKLpteJAgKLpqOlCQKLpo/CAQKLptuqAwKJgMfPDQKIgMfPDQKLgMfPDQKKgMfPDQKNgMfPDQKMgMfPDQKPgMfPDQKegMfPDQKRgMfPDQKJgIfMDQKJgIvMDQKJgI/MDQKjhev0CQKsor/MBAKuw6GFCwLTrYvrBwLruq7mCgKh5NGWDQKh5KXqBQKh5LnPDAKh5K3JAQKh5IGiCAKh5JWHBwKh5OnYDwKh5J3aDAKh5PG/CwKE09vIDAKE06+sCwKdzc65BAK25vygCQKvmcCfDQKRtIqCAjiHXomYVwl9cDeHCTXyU9c0udaH" />
+    </div>
+
+    <script  type="text/javascript">
+
+        var __Win__IsAutoClose = true;
+        var __Win__IsFilterClose = true;
+        var __Win__CloseWaitTime = 2500;
+
+    </script>
+
+    <script  type="text/javascript" src="/WinValidatorFiles/lib/common.js">
+    </script>
+
+    <script  type="text/javascript" src="/WinValidatorFiles/rightpoptip/js/validator.js">
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        Sys.Application.initialize();
+        //]]>
+    </script>
+</form>
+</body>
+</html>
+
+<script language="javascript" type="text/javascript">    fuscousALL("DepartGrid", "#FFFFFF", "#EEEEEE", "#d7d5d5", "#DDDDDD");fuscousALL("DAGL_AJGrid", "#FFFFFF", "#EEEEEE", "#d7d5d5", "#DDDDDD");//FFFFCC
+
+fuscousALL("", "#FFFFFF", "#EEEEEE", "#d7d5d5", "#DDDDDD");
+</script>
